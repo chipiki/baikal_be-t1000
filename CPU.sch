@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 2 7
+Sheet 2 9
 Title "Baikal BE-T1000"
 Date "2019-10-30"
 Rev "001"
@@ -43,5 +43,17 @@ S 5250 1350 550  200
 U 5E146C43
 F0 "NC" 50
 F1 "NC.sch" 50
+$EndSheet
+$Sheet
+S 3750 3850 800  400 
+U 5DC17EE3
+F0 "CPU_POWER" 50
+F1 "CPU_POWER.sch" 50
+$EndSheet
+$Sheet
+S 3750 4550 800  350 
+U 5EB7C372
+F0 "PCIE" 50
+F1 "PCIE.sch" 50
 $EndSheet
 $EndSCHEMATC

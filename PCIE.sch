@@ -15,10 +15,10 @@ Comment3 "Denis Tsekh"
 Comment4 "Denis Tsekh"
 $EndDescr
 $Comp
-L Baikal-T1:Baikal_BE-T1000 DD?
+L Baikal-T1:Baikal_BE-T1000 DD1
 U 6 1 5EB7D7AD
 P 3950 4200
-F 0 "DD?" H 4500 4400 60  0000 L CNN
+F 0 "DD1" H 4500 4400 60  0000 L CNN
 F 1 "Baikal_BE-T1000" H 4200 700 60  0000 L CNN
 F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 4150 4250 60  0001 L CNN
 F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 4150 4050 60  0001 L CNN

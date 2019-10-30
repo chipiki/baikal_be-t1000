@@ -106,12 +106,223 @@ $EndComp
 $Comp
 L BE-T1000:BE-T1000 DD?
 U 8 1 5DBCC5E9
-P 1950 4950
-F 0 "DD?" H 1975 7825 50  0000 C CNN
-F 1 "BE-T1000" H 1975 7734 50  0000 C CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 1650 7800 50  0001 C CNN
-F 3 "" H 1650 7800 50  0001 C CNN
-	8    1950 4950
+P 2150 4950
+F 0 "DD?" H 2175 7825 50  0000 C CNN
+F 1 "BE-T1000" H 2175 7734 50  0000 C CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 1850 7800 50  0001 C CNN
+F 3 "" H 1850 7800 50  0001 C CNN
+	8    2150 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2300 1150 2300
+Wire Wire Line
+	1400 2400 1150 2400
+Wire Wire Line
+	1400 2500 1150 2500
+Wire Wire Line
+	1400 2600 1150 2600
+Wire Wire Line
+	1400 2700 1150 2700
+Wire Wire Line
+	1400 2800 1150 2800
+Wire Wire Line
+	1400 2900 1150 2900
+Wire Wire Line
+	1400 3000 1150 3000
+Wire Wire Line
+	1400 3100 1150 3100
+Wire Wire Line
+	1400 3200 1150 3200
+Wire Wire Line
+	1400 3300 1150 3300
+Wire Wire Line
+	1400 3400 1150 3400
+Wire Wire Line
+	1400 3500 1150 3500
+Wire Wire Line
+	1400 3600 1150 3600
+Wire Wire Line
+	1400 3700 1150 3700
+Wire Wire Line
+	1400 3800 1150 3800
+Wire Wire Line
+	1400 3900 1150 3900
+Wire Wire Line
+	1400 4000 1150 4000
+Wire Wire Line
+	1400 4100 1150 4100
+Wire Wire Line
+	1400 4200 1150 4200
+Wire Wire Line
+	1400 4300 1150 4300
+Wire Wire Line
+	1400 4400 1150 4400
+Wire Wire Line
+	1400 4500 1150 4500
+Wire Wire Line
+	1400 4600 1150 4600
+Wire Wire Line
+	1400 4700 1150 4700
+Wire Wire Line
+	1400 4800 1150 4800
+Wire Wire Line
+	1400 4900 1150 4900
+Wire Wire Line
+	1400 5000 1150 5000
+Wire Wire Line
+	1400 5100 1150 5100
+Wire Wire Line
+	1400 5200 1150 5200
+Wire Wire Line
+	1400 5300 1150 5300
+Wire Wire Line
+	1400 5400 1150 5400
+Wire Wire Line
+	1400 5500 1150 5500
+Wire Wire Line
+	1400 5600 1150 5600
+Wire Wire Line
+	1400 5700 1150 5700
+Wire Wire Line
+	1400 5800 1150 5800
+Wire Wire Line
+	1400 5900 1150 5900
+Wire Wire Line
+	1400 6000 1150 6000
+Wire Wire Line
+	1400 6100 1150 6100
+Wire Wire Line
+	1400 6200 1150 6200
+Wire Wire Line
+	1400 6350 1150 6350
+Wire Wire Line
+	1400 6450 1150 6450
+Wire Wire Line
+	1400 6600 1150 6600
+Wire Wire Line
+	1400 6700 1150 6700
+Wire Wire Line
+	1400 6800 1150 6800
+Wire Wire Line
+	1400 6900 1150 6900
+Wire Wire Line
+	1400 7000 1150 7000
+Wire Wire Line
+	1400 7150 1150 7150
+Wire Wire Line
+	1400 7250 1150 7250
+Wire Wire Line
+	1400 7400 1150 7400
+Wire Wire Line
+	1400 7500 1150 7500
+Wire Wire Line
+	1400 7650 1150 7650
+Wire Wire Line
+	1400 7750 1150 7750
+Wire Wire Line
+	1400 7900 1150 7900
+Wire Wire Line
+	1400 8000 1150 8000
+Wire Wire Line
+	1400 8150 1150 8150
+Wire Wire Line
+	1400 8250 1150 8250
+Wire Wire Line
+	2950 2300 3200 2300
+Wire Wire Line
+	2950 2400 3200 2400
+Wire Wire Line
+	2950 2500 3200 2500
+Wire Wire Line
+	2950 2650 3200 2650
+Wire Wire Line
+	2950 2750 3200 2750
+Wire Wire Line
+	2950 2850 3200 2850
+Wire Wire Line
+	2950 2950 3200 2950
+Wire Wire Line
+	2950 3050 3200 3050
+Wire Wire Line
+	2950 3150 3200 3150
+Wire Wire Line
+	2950 3250 3200 3250
+Wire Wire Line
+	2950 3350 3200 3350
+Wire Wire Line
+	2950 3450 3200 3450
+Wire Wire Line
+	2950 3550 3200 3550
+Wire Wire Line
+	2950 3650 3200 3650
+Wire Wire Line
+	2950 3750 3200 3750
+Wire Wire Line
+	2950 3850 3200 3850
+Wire Wire Line
+	2950 3950 3200 3950
+Wire Wire Line
+	2950 4050 3200 4050
+Wire Wire Line
+	2950 4150 3200 4150
+Wire Wire Line
+	2950 4300 3200 4300
+Wire Wire Line
+	2950 4400 3200 4400
+Wire Wire Line
+	2950 4550 3200 4550
+Wire Wire Line
+	2950 4650 3200 4650
+Wire Wire Line
+	2950 4800 3200 4800
+Wire Wire Line
+	2950 4900 3200 4900
+Wire Wire Line
+	2950 5000 3200 5000
+Wire Wire Line
+	2950 5100 3200 5100
+Wire Wire Line
+	2950 5250 3200 5250
+Wire Wire Line
+	2950 5400 3200 5400
+Wire Wire Line
+	2950 5500 3200 5500
+Wire Wire Line
+	2950 5600 3200 5600
+Wire Wire Line
+	2950 5750 3200 5750
+Wire Wire Line
+	2950 5850 3200 5850
+Wire Wire Line
+	2950 6000 3200 6000
+Wire Wire Line
+	2950 6100 3200 6100
+Wire Wire Line
+	2950 6200 3200 6200
+Wire Wire Line
+	2950 6300 3200 6300
+Wire Wire Line
+	2950 6400 3200 6400
+Wire Wire Line
+	2950 6500 3200 6500
+Wire Wire Line
+	2950 6650 3200 6650
+Wire Wire Line
+	2950 6750 3200 6750
+Wire Wire Line
+	2950 6850 3200 6850
+$Comp
+L Baikal-T1:Baikal_BE-T1000 DD?
+U 1 1 5DD69C5C
+P 11200 3850
+F 0 "DD?" H 12150 4140 60  0000 C CNN
+F 1 "Baikal_BE-T1000" H 12150 4034 60  0000 C CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 11400 3900 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 11400 3700 60  0001 L CNN
+F 4 "BE-T1000" H 11400 3800 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 11400 3600 60  0001 L CNN "Поле5"
+	1    11200 3850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

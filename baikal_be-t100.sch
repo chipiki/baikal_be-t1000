@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:baikal_be-t100-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 3
+Sheet 1 7
 Title "Baikal BE-T1000"
 Date "2019-10-30"
 Rev "001"

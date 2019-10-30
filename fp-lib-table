@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name AM1LT)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/AM1LT.pretty)(options "")(descr ""))
+  (lib (name Conn_microSD)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/Conn_microSD.pretty)(options "")(descr ""))
+  (lib (name Epcos)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/Epcos.pretty)(options "")(descr ""))
+  (lib (name Fiducial_Mark)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/Fiducial_Mark.pretty)(options "")(descr ""))
+  (lib (name microUSB)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/microUSB.pretty)(options "")(descr ""))
+  (lib (name 2-2013289-1)(type Legacy)(uri ${KIPRJMOD}/Libraries/Footprints/2-2013289-1.mod)(options "")(descr ""))
+  (lib (name Housing_BGA_Baikal)(type KiCad)(uri ${KIPRJMOD}/Libraries/baikal_be-t1000-kicad-lib/Footprint/Housing_BGA_Baikal.pretty)(options "")(descr ""))
+)

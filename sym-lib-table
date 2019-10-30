@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Baikal-T1)(type Legacy)(uri ${KIPRJMOD}/Libraries/baikal_be-t1000-kicad-lib/Symbol/Baikal-T1.lib)(options "")(descr ""))
+  (lib (name BE-T1000)(type Legacy)(uri ${KIPRJMOD}/Libraries/baikal_be-t1000-kicad-lib/Symbol/BE-T1000.lib)(options "")(descr ""))
+  (lib (name 2-2013289-1)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/2-2013289-1.lib)(options "")(descr ""))
+)

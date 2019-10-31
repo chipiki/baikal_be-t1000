@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 9
+Sheet 3 17
 Title "Baikal BE-T1000"
-Date "2019-10-30"
+Date "2019-10-31"
 Rev "001"
 Comp "chipiki.ru"
 Comment1 "Baikal BE-T1000"
@@ -966,10 +966,10 @@ F 3 "" H 10550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0109
 U 1 1 5DBC2E55
 P 10450 8800
-F 0 "#PWR?" H 10450 8650 50  0001 C CNN
+F 0 "#PWR0109" H 10450 8650 50  0001 C CNN
 F 1 "+3.3V" V 10465 8928 50  0000 L CNN
 F 2 "" H 10450 8800 50  0001 C CNN
 F 3 "" H 10450 8800 50  0001 C CNN
@@ -1160,4 +1160,132 @@ Text Label 6050 4900 2    50   ~ 0
 BA2
 Text Label 6050 5000 2    50   ~ 0
 DDR_CAS#
+$Comp
+L Baikal-T1:Baikal_BE-T1000 DD1
+U 18 1 5DEB202D
+P 4300 8600
+F 0 "DD1" H 4650 8800 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 4350 6400 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 4500 8650 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 4500 8450 60  0001 L CNN
+F 4 "BE-T1000" H 4500 8550 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 4500 8350 60  0001 L CNN "Поле5"
+	18   4300 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 8600 4150 8600
+Wire Wire Line
+	4300 8700 4150 8700
+Wire Wire Line
+	4300 8800 4150 8800
+Wire Wire Line
+	4300 8900 4150 8900
+Wire Wire Line
+	4300 9000 4150 9000
+Wire Wire Line
+	4300 9100 4150 9100
+Wire Wire Line
+	4300 9200 4150 9200
+Wire Wire Line
+	4300 9300 4150 9300
+Wire Wire Line
+	4300 9400 4150 9400
+Wire Wire Line
+	4300 9500 4150 9500
+Wire Wire Line
+	4300 9600 4150 9600
+Wire Wire Line
+	4300 9700 4150 9700
+Wire Wire Line
+	4300 9800 4150 9800
+Wire Wire Line
+	4300 9900 4150 9900
+Wire Wire Line
+	4300 10000 4150 10000
+Wire Wire Line
+	4300 10100 4150 10100
+Wire Wire Line
+	4300 10200 4150 10200
+Wire Wire Line
+	4300 10300 4150 10300
+Wire Wire Line
+	4300 10400 4150 10400
+Wire Wire Line
+	4300 10500 4150 10500
+Wire Wire Line
+	4300 10600 4150 10600
+Wire Wire Line
+	4150 10600 4150 10500
+Connection ~ 4150 8600
+Wire Wire Line
+	4150 8600 4150 8450
+Connection ~ 4150 8700
+Wire Wire Line
+	4150 8700 4150 8600
+Connection ~ 4150 8800
+Wire Wire Line
+	4150 8800 4150 8700
+Connection ~ 4150 8900
+Wire Wire Line
+	4150 8900 4150 8800
+Connection ~ 4150 9000
+Wire Wire Line
+	4150 9000 4150 8900
+Connection ~ 4150 9100
+Wire Wire Line
+	4150 9100 4150 9000
+Connection ~ 4150 9200
+Wire Wire Line
+	4150 9200 4150 9100
+Connection ~ 4150 9300
+Wire Wire Line
+	4150 9300 4150 9200
+Connection ~ 4150 9400
+Wire Wire Line
+	4150 9400 4150 9300
+Connection ~ 4150 9500
+Wire Wire Line
+	4150 9500 4150 9400
+Connection ~ 4150 9600
+Wire Wire Line
+	4150 9600 4150 9500
+Connection ~ 4150 9700
+Wire Wire Line
+	4150 9700 4150 9600
+Connection ~ 4150 9800
+Wire Wire Line
+	4150 9800 4150 9700
+Connection ~ 4150 9900
+Wire Wire Line
+	4150 9900 4150 9800
+Connection ~ 4150 10000
+Wire Wire Line
+	4150 10000 4150 9900
+Connection ~ 4150 10100
+Wire Wire Line
+	4150 10100 4150 10000
+Connection ~ 4150 10200
+Wire Wire Line
+	4150 10200 4150 10100
+Connection ~ 4150 10300
+Wire Wire Line
+	4150 10300 4150 10200
+Connection ~ 4150 10400
+Wire Wire Line
+	4150 10400 4150 10300
+Connection ~ 4150 10500
+Wire Wire Line
+	4150 10500 4150 10400
+$Comp
+L power:+1V5 #PWR0110
+U 1 1 5E45E4D0
+P 4150 8450
+F 0 "#PWR0110" H 4150 8300 50  0001 C CNN
+F 1 "+1V5" H 4165 8623 50  0000 C CNN
+F 2 "" H 4150 8450 50  0001 C CNN
+F 3 "" H 4150 8450 50  0001 C CNN
+	1    4150 8450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

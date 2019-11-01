@@ -1,3 +1,6 @@
 [submodule "Libraries/baikal_be-t1000-kicad-lib"]
 	path = Libraries/baikal_be-t1000-kicad-lib
 	url = https://github.com/chipiki/baikal_be-t1000-kicad-lib.git
+[submodule "Libraries/KiCAD"]
+	path = Libraries/KiCAD
+	url = https://github.com/chipiki/KiCAD.git

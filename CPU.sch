@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 2 17
+Sheet 2 18
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"
@@ -17,8 +17,8 @@ $EndDescr
 $Sheet
 S 3750 1350 800  400 
 U 5DB92D70
-F0 "DDR3" 50
-F1 "DDR3.sch" 50
+F0 "SODIMM204" 50
+F1 "SODIMM204.sch" 50
 $EndSheet
 $Sheet
 S 3750 1950 800  400 
@@ -39,7 +39,7 @@ F0 "JTAG" 50
 F1 "JTAG.sch" 50
 $EndSheet
 $Sheet
-S 5250 1350 550  200 
+S 5550 1350 550  200 
 U 5E146C43
 F0 "NC" 50
 F1 "NC.sch" 50
@@ -103,5 +103,11 @@ S 4700 4950 800  400
 U 5E3A69A8
 F0 "Ethernet_XGB" 50
 F1 "Ethernet_XGB.sch" 50
+$EndSheet
+$Sheet
+S 4650 1350 800  400 
+U 5DE687AF
+F0 "DDR3_chip" 50
+F1 "DDR3_chip.sch" 50
 $EndSheet
 $EndSCHEMATC

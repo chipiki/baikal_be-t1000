@@ -121,4 +121,34 @@ Text Label 3450 6350 0    50   ~ 0
 TR_DATA14
 Text Label 3450 6450 0    50   ~ 0
 TR_DATA15
+Text Label 3450 6550 0    50   ~ 0
+TR_DM
+Text Label 3450 6650 0    50   ~ 0
+TR_PROBE_N
+Text Label 3450 6750 0    50   ~ 0
+TR_TRIGIN
+Text Label 3450 6850 0    50   ~ 0
+TR_TRIGOUT
+Text Label 3450 6950 0    50   ~ 0
+TSTSEL_1
+Text Label 3450 7050 0    50   ~ 0
+TSTSEL_2
+Text Label 3450 7150 0    50   ~ 0
+TSTSEL_3
+Text Label 3450 4850 0    50   ~ 0
+TR_CLK
+Text Label 3450 4750 0    50   ~ 0
+TR_TRSTN
+Text Label 3450 4650 0    50   ~ 0
+TR_TMS
+Text Label 3450 4550 0    50   ~ 0
+TR_TEST
+Text Label 3450 4450 0    50   ~ 0
+TR_TDO
+Text Label 3450 4350 0    50   ~ 0
+TR_TDI
+Text Label 3450 4250 0    50   ~ 0
+TR_TCK
+Text Label 3450 4150 0    50   ~ 0
+TR_MBIST_CLK
 $EndSCHEMATC

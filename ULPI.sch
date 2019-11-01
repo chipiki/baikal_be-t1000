@@ -17,55 +17,724 @@ $EndDescr
 $Comp
 L Baikal-T1:Baikal_BE-T1000 DD1
 U 14 1 5DD9CD2C
-P 3900 5050
-F 0 "DD1" H 4300 5250 60  0000 L CNN
-F 1 "Baikal_BE-T1000" H 4050 3750 60  0000 L CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 4100 5100 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 4100 4900 60  0001 L CNN
-F 4 "BE-T1000" H 4100 5000 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 4100 4800 60  0001 L CNN "Поле5"
-	14   3900 5050
+P 6300 5050
+F 0 "DD1" H 6700 5250 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 6450 3750 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 6500 5100 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 6500 4900 60  0001 L CNN
+F 4 "BE-T1000" H 6500 5000 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 6500 4800 60  0001 L CNN "Поле5"
+	14   6300 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 5050 3600 5050
+	6300 5050 5850 5050
 Wire Wire Line
-	3900 5150 3600 5150
+	6300 5150 5850 5150
 Wire Wire Line
-	3900 5250 3600 5250
+	6300 5250 5850 5250
 Wire Wire Line
-	3900 5350 3600 5350
+	6300 5350 5850 5350
 Wire Wire Line
-	3900 5450 3600 5450
+	6300 5450 5850 5450
 Wire Wire Line
-	3900 5550 3600 5550
+	6300 5550 5850 5550
 Wire Wire Line
-	3900 5650 3600 5650
+	6300 5650 5850 5650
 Wire Wire Line
-	3900 5750 3600 5750
+	6300 5750 5850 5750
 Wire Wire Line
-	3900 5850 3600 5850
+	6300 5850 5850 5850
 Wire Wire Line
-	3900 5950 3600 5950
+	6300 5950 5850 5950
 Wire Wire Line
-	3900 6050 3600 6050
+	6300 6050 5850 6050
 Wire Wire Line
-	3900 6150 3600 6150
+	6300 6150 5850 6150
 $Comp
 L Baikal-T1:Baikal_BE-T1000 DD1
 U 15 1 5DDB244F
-P 3900 6850
-F 0 "DD1" H 4300 7050 60  0000 L CNN
-F 1 "Baikal_BE-T1000" H 4050 6550 60  0000 L CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 4100 6900 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 4100 6700 60  0001 L CNN
-F 4 "BE-T1000" H 4100 6800 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 4100 6600 60  0001 L CNN "Поле5"
-	15   3900 6850
+P 6300 6850
+F 0 "DD1" H 6700 7050 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 6450 6550 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 6500 6900 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 6500 6700 60  0001 L CNN
+F 4 "BE-T1000" H 6500 6800 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 6500 6600 60  0001 L CNN "Поле5"
+	15   6300 6850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 6850 3600 6850
+	6300 6850 6000 6850
 Wire Wire Line
-	3900 6950 3600 6950
+	6300 6950 6000 6950
+$Comp
+L Interface_USB:USB3300-EZK U?
+U 1 1 5DD46FE9
+P 3950 5550
+F 0 "U?" H 3350 6600 50  0000 C CNN
+F 1 "USB3300-EZK" H 4400 4500 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 5250 4300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00001783C.pdf" H 3950 5550 50  0001 C CNN
+	1    3950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DD5B2AF
+P 3950 6900
+F 0 "#PWR?" H 3950 6650 50  0001 C CNN
+F 1 "GNDD" H 3954 6745 50  0000 C CNN
+F 2 "" H 3950 6900 50  0001 C CNN
+F 3 "" H 3950 6900 50  0001 C CNN
+	1    3950 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6650 3850 6750
+Wire Wire Line
+	3850 6750 3950 6750
+Wire Wire Line
+	4050 6750 4050 6650
+Wire Wire Line
+	3950 6650 3950 6750
+Connection ~ 3950 6750
+Wire Wire Line
+	3950 6750 4050 6750
+Wire Wire Line
+	3950 6750 3950 6900
+Text Label 5850 5150 0    50   ~ 0
+ULPI_DATA0
+Text Label 5850 5250 0    50   ~ 0
+ULPI_DATA1
+Text Label 5850 5350 0    50   ~ 0
+ULPI_DATA2
+Text Label 5850 5450 0    50   ~ 0
+ULPI_DATA3
+Text Label 5850 5550 0    50   ~ 0
+ULPI_DATA4
+Text Label 5850 5650 0    50   ~ 0
+ULPI_DATA5
+Text Label 5850 5750 0    50   ~ 0
+ULPI_DATA6
+Text Label 5850 5850 0    50   ~ 0
+ULPI_DATA7
+Text Label 5850 5050 0    50   ~ 0
+ULPI_CLK
+Text Label 5850 5950 0    50   ~ 0
+ULPI_DIR
+Text Label 5850 6050 0    50   ~ 0
+ULPI_NXT
+Text Label 5850 6150 0    50   ~ 0
+ULPI_STP
+Wire Wire Line
+	4750 5850 5200 5850
+Wire Wire Line
+	4750 5750 5200 5750
+Wire Wire Line
+	4750 5650 5200 5650
+Wire Wire Line
+	4750 5550 5200 5550
+Wire Wire Line
+	4750 5450 5200 5450
+Wire Wire Line
+	4750 5350 5200 5350
+Wire Wire Line
+	4750 5250 5200 5250
+Wire Wire Line
+	4750 5150 5200 5150
+Text Label 5200 5850 2    50   ~ 0
+ULPI_DATA0
+Text Label 5200 5750 2    50   ~ 0
+ULPI_DATA1
+Text Label 5200 5650 2    50   ~ 0
+ULPI_DATA2
+Text Label 5200 5550 2    50   ~ 0
+ULPI_DATA3
+Text Label 5200 5450 2    50   ~ 0
+ULPI_DATA4
+Text Label 5200 5350 2    50   ~ 0
+ULPI_DATA5
+Text Label 5200 5250 2    50   ~ 0
+ULPI_DATA6
+Text Label 5200 5150 2    50   ~ 0
+ULPI_DATA7
+Wire Wire Line
+	4750 6050 5200 6050
+Wire Wire Line
+	4750 5950 5200 5950
+Wire Wire Line
+	4750 6150 5200 6150
+Text Label 5200 6050 2    50   ~ 0
+ULPI_DIR
+Text Label 5200 5950 2    50   ~ 0
+ULPI_NXT
+Text Label 5200 6150 2    50   ~ 0
+ULPI_STP
+Wire Wire Line
+	4750 6250 5200 6250
+Text Label 5200 6250 2    50   ~ 0
+ULPI_CLK
+Wire Wire Line
+	3750 4450 3750 3900
+Wire Wire Line
+	4050 3900 4050 4450
+Wire Wire Line
+	3950 4450 3950 3900
+Wire Wire Line
+	3850 4450 3850 3900
+Wire Wire Line
+	4750 4850 4850 4850
+Wire Wire Line
+	4850 4850 4850 4750
+Wire Wire Line
+	4850 4750 4750 4750
+Connection ~ 4850 4750
+Wire Wire Line
+	4750 4950 5000 4950
+$Comp
+L Device:Crystal_GND24 Y?
+U 1 1 5DDC6700
+P 1800 5550
+F 0 "Y?" H 1550 5650 50  0000 L CNN
+F 1 "24MHz" H 1850 5350 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1800 5550 50  0001 C CNN
+F 3 "~" H 1800 5550 50  0001 C CNN
+	1    1800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DDCD5E5
+P 1350 5800
+F 0 "C?" H 1465 5846 50  0000 L CNN
+F 1 "33pF" H 1465 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 5650 50  0001 C CNN
+F 3 "~" H 1350 5800 50  0001 C CNN
+	1    1350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DDDBFA5
+P 1350 6050
+F 0 "#PWR?" H 1350 5800 50  0001 C CNN
+F 1 "GNDD" H 1354 5895 50  0000 C CNN
+F 2 "" H 1350 6050 50  0001 C CNN
+F 3 "" H 1350 6050 50  0001 C CNN
+	1    1350 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5650 1350 5550
+Wire Wire Line
+	1350 5550 1650 5550
+Wire Wire Line
+	1350 5950 1350 6050
+$Comp
+L Device:C C?
+U 1 1 5DDE96AD
+P 2200 5800
+F 0 "C?" H 2315 5846 50  0000 L CNN
+F 1 "33pF" H 2315 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2238 5650 50  0001 C CNN
+F 3 "~" H 2200 5800 50  0001 C CNN
+	1    2200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DDE96B3
+P 2200 6050
+F 0 "#PWR?" H 2200 5800 50  0001 C CNN
+F 1 "GNDD" H 2204 5895 50  0000 C CNN
+F 2 "" H 2200 6050 50  0001 C CNN
+F 3 "" H 2200 6050 50  0001 C CNN
+	1    2200 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5650 2200 5550
+Wire Wire Line
+	2200 5950 2200 6050
+Wire Wire Line
+	1950 5550 2200 5550
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DDF00EE
+P 1800 5850
+F 0 "#PWR?" H 1800 5600 50  0001 C CNN
+F 1 "GNDD" H 1804 5695 50  0000 C CNN
+F 2 "" H 1800 5850 50  0001 C CNN
+F 3 "" H 1800 5850 50  0001 C CNN
+	1    1800 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5750 1800 5850
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DDF1E33
+P 1650 5200
+F 0 "#PWR?" H 1650 4950 50  0001 C CNN
+F 1 "GNDD" H 1800 5150 50  0000 C CNN
+F 2 "" H 1650 5200 50  0001 C CNN
+F 3 "" H 1650 5200 50  0001 C CNN
+	1    1650 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5350 1800 5150
+Wire Wire Line
+	1800 5150 1650 5150
+Wire Wire Line
+	1650 5150 1650 5200
+Wire Wire Line
+	3150 5550 2200 5550
+Connection ~ 2200 5550
+$Comp
+L Device:R R?
+U 1 1 5DE02B20
+P 2200 5300
+F 0 "R?" H 2130 5254 50  0000 R CNN
+F 1 "1M" H 2130 5345 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 5300 50  0001 C CNN
+F 3 "~" H 2200 5300 50  0001 C CNN
+	1    2200 5300
+	-1   0    0    1   
+$EndComp
+Connection ~ 1350 5550
+Wire Wire Line
+	2500 5350 3150 5350
+Wire Wire Line
+	1350 5100 1350 5550
+Wire Wire Line
+	2200 5550 2200 5450
+Wire Wire Line
+	1350 5100 2200 5100
+Wire Wire Line
+	2200 5100 2200 5150
+Wire Wire Line
+	2200 5100 2500 5100
+Wire Wire Line
+	2500 5100 2500 5350
+Connection ~ 2200 5100
+$Comp
+L Device:C C?
+U 1 1 5DE5A6D2
+P 2700 8400
+F 0 "C?" H 2750 8500 50  0000 L CNN
+F 1 "0.1uF" H 2750 8300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 8250 50  0001 C CNN
+F 3 "~" H 2700 8400 50  0001 C CNN
+	1    2700 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DE5F7BB
+P 3100 8400
+F 0 "C?" H 3150 8500 50  0000 L CNN
+F 1 "0.01uF" H 3150 8300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 8250 50  0001 C CNN
+F 3 "~" H 3100 8400 50  0001 C CNN
+	1    3100 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5DE65393
+P 2200 8400
+F 0 "C?" H 2250 8500 50  0000 L CNN
+F 1 "10uF/6.3V" H 2200 8300 50  0000 L CNN
+F 2 "" H 2238 8250 50  0001 C CNN
+F 3 "~" H 2200 8400 50  0001 C CNN
+	1    2200 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DE7267D
+P 3550 8150
+F 0 "R?" V 3650 8200 50  0000 R CNN
+F 1 "0" V 3550 8150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 8150 50  0001 C CNN
+F 3 "~" H 3550 8150 50  0001 C CNN
+	1    3550 8150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5DE821B8
+P 4050 8150
+F 0 "FB?" V 3900 8150 50  0000 C CNN
+F 1 "500mA / 0.1DCR" V 4200 8150 50  0000 C CNN
+F 2 "" V 3980 8150 50  0001 C CNN
+F 3 "~" H 4050 8150 50  0001 C CNN
+	1    4050 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DE8A468
+P 2200 8700
+F 0 "#PWR?" H 2200 8450 50  0001 C CNN
+F 1 "GNDD" H 2204 8545 50  0000 C CNN
+F 2 "" H 2200 8700 50  0001 C CNN
+F 3 "" H 2200 8700 50  0001 C CNN
+	1    2200 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 8550 2200 8700
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DE8C947
+P 2700 8700
+F 0 "#PWR?" H 2700 8450 50  0001 C CNN
+F 1 "GNDD" H 2704 8545 50  0000 C CNN
+F 2 "" H 2700 8700 50  0001 C CNN
+F 3 "" H 2700 8700 50  0001 C CNN
+	1    2700 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 8550 2700 8700
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DE8EF4B
+P 3100 8700
+F 0 "#PWR?" H 3100 8450 50  0001 C CNN
+F 1 "GNDD" H 3104 8545 50  0000 C CNN
+F 2 "" H 3100 8700 50  0001 C CNN
+F 3 "" H 3100 8700 50  0001 C CNN
+	1    3100 8700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 8550 3100 8700
+Wire Wire Line
+	2200 8250 2200 8150
+Wire Wire Line
+	2200 8150 2700 8150
+Wire Wire Line
+	3100 8250 3100 8150
+Connection ~ 3100 8150
+Wire Wire Line
+	3100 8150 3400 8150
+Wire Wire Line
+	2700 8250 2700 8150
+Connection ~ 2700 8150
+Wire Wire Line
+	2700 8150 3100 8150
+Wire Wire Line
+	3700 8150 3900 8150
+$Comp
+L Device:R R?
+U 1 1 5DEB95EC
+P 2950 6550
+F 0 "R?" H 2880 6504 50  0000 R CNN
+F 1 "12K" H 2880 6595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2880 6550 50  0001 C CNN
+F 3 "~" H 2950 6550 50  0001 C CNN
+	1    2950 6550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 6250 2950 6250
+Wire Wire Line
+	2950 6250 2950 6400
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DEC0FCB
+P 2950 6900
+F 0 "#PWR?" H 2950 6650 50  0001 C CNN
+F 1 "GNDD" H 2954 6745 50  0000 C CNN
+F 2 "" H 2950 6900 50  0001 C CNN
+F 3 "" H 2950 6900 50  0001 C CNN
+	1    2950 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6700 2950 6900
+$Comp
+L Device:C C?
+U 1 1 5DECF9F9
+P 5250 3500
+F 0 "C?" H 5100 3600 50  0000 L CNN
+F 1 "0.1uF" H 5000 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 3350 50  0001 C CNN
+F 3 "~" H 5250 3500 50  0001 C CNN
+	1    5250 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5DECF9FF
+P 5750 3500
+F 0 "C?" H 5800 3600 50  0000 L CNN
+F 1 "4.7uF/6.3V" H 5800 3400 50  0000 L CNN
+F 2 "" H 5788 3350 50  0001 C CNN
+F 3 "~" H 5750 3500 50  0001 C CNN
+	1    5750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DECFA05
+P 5750 3700
+F 0 "#PWR?" H 5750 3450 50  0001 C CNN
+F 1 "GNDD" H 5754 3545 50  0000 C CNN
+F 2 "" H 5750 3700 50  0001 C CNN
+F 3 "" H 5750 3700 50  0001 C CNN
+	1    5750 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3650 5750 3700
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DECFA0C
+P 5250 3700
+F 0 "#PWR?" H 5250 3450 50  0001 C CNN
+F 1 "GNDD" H 5254 3545 50  0000 C CNN
+F 2 "" H 5250 3700 50  0001 C CNN
+F 3 "" H 5250 3700 50  0001 C CNN
+	1    5250 3700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3650 5250 3700
+Wire Wire Line
+	5750 3350 5750 3250
+Wire Wire Line
+	5750 3250 5250 3250
+Wire Wire Line
+	5250 3350 5250 3250
+Connection ~ 5250 3250
+Wire Wire Line
+	5250 3250 4850 3250
+$Comp
+L Device:C C?
+U 1 1 5DEF130E
+P 5250 4250
+F 0 "C?" H 5100 4350 50  0000 L CNN
+F 1 "0.1uF" H 5000 4150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 4100 50  0001 C CNN
+F 3 "~" H 5250 4250 50  0001 C CNN
+	1    5250 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5DEF1314
+P 5750 4250
+F 0 "C?" H 5800 4350 50  0000 L CNN
+F 1 "4.7uF/6.3V" H 5800 4150 50  0000 L CNN
+F 2 "" H 5788 4100 50  0001 C CNN
+F 3 "~" H 5750 4250 50  0001 C CNN
+	1    5750 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DEF131A
+P 5750 4450
+F 0 "#PWR?" H 5750 4200 50  0001 C CNN
+F 1 "GNDD" H 5754 4295 50  0000 C CNN
+F 2 "" H 5750 4450 50  0001 C CNN
+F 3 "" H 5750 4450 50  0001 C CNN
+	1    5750 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 4400 5750 4450
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DEF1321
+P 5250 4450
+F 0 "#PWR?" H 5250 4200 50  0001 C CNN
+F 1 "GNDD" H 5254 4295 50  0000 C CNN
+F 2 "" H 5250 4450 50  0001 C CNN
+F 3 "" H 5250 4450 50  0001 C CNN
+	1    5250 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4400 5250 4450
+Wire Wire Line
+	5750 4100 5750 4000
+Wire Wire Line
+	5750 4000 5250 4000
+Wire Wire Line
+	5250 4100 5250 4000
+Connection ~ 5250 4000
+Wire Wire Line
+	4850 3250 4850 4750
+Wire Wire Line
+	5000 4000 5000 4950
+Wire Wire Line
+	5000 4000 5250 4000
+$Comp
+L OLIMEX_Power:+3.3V #PWR?
+U 1 1 5DF0A811
+P 4400 8050
+F 0 "#PWR?" H 4400 7900 50  0001 C CNN
+F 1 "+3.3V" H 4415 8223 50  0000 C CNN
+F 2 "" H 4400 8050 60  0000 C CNN
+F 3 "" H 4400 8050 60  0000 C CNN
+	1    4400 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 8150 4400 8150
+Wire Wire Line
+	4400 8150 4400 8050
+$Comp
+L Device:C C?
+U 1 1 5DF1A443
+P 2700 9350
+F 0 "C?" H 2750 9450 50  0000 L CNN
+F 1 "0.1uF" H 2750 9250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 9200 50  0001 C CNN
+F 3 "~" H 2700 9350 50  0001 C CNN
+	1    2700 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DF1A449
+P 3100 9350
+F 0 "C?" H 3150 9450 50  0000 L CNN
+F 1 "0.01uF" H 3150 9250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3138 9200 50  0001 C CNN
+F 3 "~" H 3100 9350 50  0001 C CNN
+	1    3100 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5DF1A44F
+P 2200 9350
+F 0 "C?" H 2250 9450 50  0000 L CNN
+F 1 "10uF/6.3V" H 2200 9250 50  0000 L CNN
+F 2 "" H 2238 9200 50  0001 C CNN
+F 3 "~" H 2200 9350 50  0001 C CNN
+	1    2200 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DF1A455
+P 3550 9100
+F 0 "R?" V 3650 9150 50  0000 R CNN
+F 1 "0" V 3550 9100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 9100 50  0001 C CNN
+F 3 "~" H 3550 9100 50  0001 C CNN
+	1    3550 9100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5DF1A45B
+P 4050 9100
+F 0 "FB?" V 3900 9100 50  0000 C CNN
+F 1 "500mA / 0.1DCR" V 4200 9100 50  0000 C CNN
+F 2 "" V 3980 9100 50  0001 C CNN
+F 3 "~" H 4050 9100 50  0001 C CNN
+	1    4050 9100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DF1A461
+P 2200 9650
+F 0 "#PWR?" H 2200 9400 50  0001 C CNN
+F 1 "GNDD" H 2204 9495 50  0000 C CNN
+F 2 "" H 2200 9650 50  0001 C CNN
+F 3 "" H 2200 9650 50  0001 C CNN
+	1    2200 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 9500 2200 9650
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DF1A468
+P 2700 9650
+F 0 "#PWR?" H 2700 9400 50  0001 C CNN
+F 1 "GNDD" H 2704 9495 50  0000 C CNN
+F 2 "" H 2700 9650 50  0001 C CNN
+F 3 "" H 2700 9650 50  0001 C CNN
+	1    2700 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 9500 2700 9650
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DF1A46F
+P 3100 9650
+F 0 "#PWR?" H 3100 9400 50  0001 C CNN
+F 1 "GNDD" H 3104 9495 50  0000 C CNN
+F 2 "" H 3100 9650 50  0001 C CNN
+F 3 "" H 3100 9650 50  0001 C CNN
+	1    3100 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 9500 3100 9650
+Wire Wire Line
+	2200 9200 2200 9100
+Wire Wire Line
+	2200 9100 2700 9100
+Wire Wire Line
+	3100 9200 3100 9100
+Connection ~ 3100 9100
+Wire Wire Line
+	3100 9100 3400 9100
+Wire Wire Line
+	2700 9200 2700 9100
+Connection ~ 2700 9100
+Wire Wire Line
+	2700 9100 3100 9100
+Wire Wire Line
+	3700 9100 3900 9100
+$Comp
+L OLIMEX_Power:+3.3V #PWR?
+U 1 1 5DF1A47F
+P 4400 9000
+F 0 "#PWR?" H 4400 8850 50  0001 C CNN
+F 1 "+3.3V" H 4415 9173 50  0000 C CNN
+F 2 "" H 4400 9000 60  0000 C CNN
+F 3 "" H 4400 9000 60  0000 C CNN
+	1    4400 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 9100 4400 9100
+Wire Wire Line
+	4400 9100 4400 9000
+Wire Wire Line
+	2200 8150 1600 8150
+Connection ~ 2200 8150
+Wire Wire Line
+	2200 9100 1600 9100
+Connection ~ 2200 9100
+Text Label 1600 8150 0    50   ~ 0
+USB_VDD3.3V
+Text Label 1600 9100 0    50   ~ 0
+USB_VDDA3.3V
+Text Label 3850 3900 3    50   ~ 0
+USB_VDD3.3V
+Text Label 3950 3900 3    50   ~ 0
+USB_VDD3.3V
+Text Label 3750 3900 3    50   ~ 0
+USB_VDDA3.3V
+Text Label 4050 3900 3    50   ~ 0
+USB_VDDA3.3V
+Wire Wire Line
+	3150 6050 2550 6050
+Text Label 2550 6050 0    50   ~ 0
+USB_VDD3.3V
 $EndSCHEMATC

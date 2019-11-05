@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 8 18
+Sheet 8 22
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"
@@ -14,36 +14,6 @@ Comment2 "Denis Tsekh"
 Comment3 "Denis Tsekh"
 Comment4 "Denis Tsekh"
 $EndDescr
-$Comp
-L Baikal-T1:Baikal_BE-T1000 DD?
-U 22 1 5DC42EA7
-P 2500 2300
-AR Path="/5DB92D28/5DB92D70/5DC42EA7" Ref="DD?"  Part="22" 
-AR Path="/5DB92D28/5DC17EE3/5DC42EA7" Ref="DD1"  Part="22" 
-F 0 "DD1" H 3200 2590 60  0000 C CNN
-F 1 "Baikal_BE-T1000" H 3200 2484 60  0000 C CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 2700 2350 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 2700 2150 60  0001 L CNN
-F 4 "BE-T1000" H 2700 2250 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 2700 2050 60  0001 L CNN "Поле5"
-	22   2500 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Baikal-T1:Baikal_BE-T1000 DD?
-U 16 1 5DC42EAF
-P 4850 2300
-AR Path="/5DB92D28/5DB92D70/5DC42EAF" Ref="DD?"  Part="16" 
-AR Path="/5DB92D28/5DC17EE3/5DC42EAF" Ref="DD1"  Part="16" 
-F 0 "DD1" H 5350 2590 60  0000 C CNN
-F 1 "Baikal_BE-T1000" H 5350 2484 60  0000 C CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5050 2350 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5050 2150 60  0001 L CNN
-F 4 "BE-T1000" H 5050 2250 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 5050 2050 60  0001 L CNN "Поле5"
-	16   4850 2300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4850 2300 4700 2300
 Wire Wire Line
@@ -935,32 +905,6 @@ F 3 "" H 4250 2400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 2300 4250 2400
-$Comp
-L Baikal-T1:Baikal_BE-T1000 DD1
-U 7 1 5DCC0F4C
-P 4900 6450
-F 0 "DD1" H 5250 6650 60  0000 L CNN
-F 1 "Baikal_BE-T1000" H 5000 6050 60  0000 L CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5100 6500 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5100 6300 60  0001 L CNN
-F 4 "BE-T1000" H 5100 6400 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 5100 6200 60  0001 L CNN "Поле5"
-	7    4900 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Baikal-T1:Baikal_BE-T1000 DD1
-U 17 1 5DDF06C7
-P 4900 7350
-F 0 "DD1" H 5250 7550 60  0000 L CNN
-F 1 "Baikal_BE-T1000" H 4950 5950 60  0000 L CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5100 7400 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5100 7200 60  0001 L CNN
-F 4 "BE-T1000" H 5100 7300 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 5100 7100 60  0001 L CNN "Поле5"
-	17   4900 7350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 7350 4900 7350
 Wire Wire Line
@@ -993,19 +937,6 @@ Wire Wire Line
 	4750 6550 4900 6550
 Wire Wire Line
 	4750 6650 4900 6650
-$Comp
-L Baikal-T1:Baikal_BE-T1000 DD1
-U 20 1 5E301142
-P 4800 9200
-F 0 "DD1" H 5250 9400 60  0000 L CNN
-F 1 "Baikal_BE-T1000" H 4950 8600 60  0000 L CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5000 9250 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5000 9050 60  0001 L CNN
-F 4 "BE-T1000" H 5000 9150 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 5000 8950 60  0001 L CNN "Поле5"
-	20   4800 9200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4650 9200 4800 9200
 Wire Wire Line
@@ -1020,7 +951,7 @@ Wire Wire Line
 	4750 8550 4750 8450
 Connection ~ 4750 7350
 Wire Wire Line
-	4750 7350 4750 7150
+	4750 7350 4750 7250
 Connection ~ 4750 7450
 Wire Wire Line
 	4750 7450 4750 7350
@@ -1054,4 +985,80 @@ Wire Wire Line
 Connection ~ 4750 8450
 Wire Wire Line
 	4750 8450 4750 8350
+$Comp
+L Baikal-T1:Baikal_BE-T1000 DD1
+U 17 1 5DDCD732
+P 4850 2300
+F 0 "DD1" H 5350 2590 60  0000 C CNN
+F 1 "Baikal_BE-T1000" H 5350 2484 60  0000 C CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5050 2350 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5050 2150 60  0001 L CNN
+F 4 "BE-T1000" H 5050 2250 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 5050 2050 60  0001 L CNN "Поле5"
+	17   4850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Baikal-T1:Baikal_BE-T1000 DD1
+U 23 1 5DDEAA6A
+P 2500 2300
+F 0 "DD1" H 3200 2590 60  0000 C CNN
+F 1 "Baikal_BE-T1000" H 3200 2484 60  0000 C CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 2700 2350 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 2700 2150 60  0001 L CNN
+F 4 "BE-T1000" H 2700 2250 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 2700 2050 60  0001 L CNN "Поле5"
+	23   2500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Baikal-T1:Baikal_BE-T1000 DD1
+U 8 1 5DDFF663
+P 4900 6450
+F 0 "DD1" H 5250 6650 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 5000 6050 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5100 6500 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5100 6300 60  0001 L CNN
+F 4 "BE-T1000" H 5100 6400 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 5100 6200 60  0001 L CNN "Поле5"
+	8    4900 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Baikal-T1:Baikal_BE-T1000 DD1
+U 18 1 5DE4C923
+P 4900 7350
+F 0 "DD1" H 5250 7550 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 4950 5950 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5100 7400 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5100 7200 60  0001 L CNN
+F 4 "BE-T1000" H 5100 7300 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 5100 7100 60  0001 L CNN "Поле5"
+	18   4900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Baikal-T1:Baikal_BE-T1000 DD1
+U 21 1 5DF59EEC
+P 4800 9200
+F 0 "DD1" H 5200 9400 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 4950 8600 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5000 9250 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5000 9050 60  0001 L CNN
+F 4 "BE-T1000" H 5000 9150 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 5000 8950 60  0001 L CNN "Поле5"
+	21   4800 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0114
+U 1 1 5E0251F5
+P 4750 7250
+F 0 "#PWR0114" H 4750 7100 50  0001 C CNN
+F 1 "+1V8" H 4765 7423 50  0000 C CNN
+F 2 "" H 4750 7250 50  0001 C CNN
+F 3 "" H 4750 7250 50  0001 C CNN
+	1    4750 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

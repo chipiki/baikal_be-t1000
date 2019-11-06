@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 2 23
+Sheet 2 28
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"
@@ -101,7 +101,7 @@ $EndSheet
 $Sheet
 S 3750 7850 850  300 
 U 5E1B7954
-F0 "DEBUG" 50
+F0 "CPU_DEBUG" 50
 F1 "CPU_DEBUG.sch" 50
 $EndSheet
 $Sheet

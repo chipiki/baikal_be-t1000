@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 5 23
+Sheet 5 28
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"
@@ -15,28 +15,280 @@ Comment3 "Denis Tsekh"
 Comment4 "Denis Tsekh"
 $EndDescr
 Wire Wire Line
-	4000 5300 3700 5300
+	4950 5000 4000 5000
 Wire Wire Line
-	4000 5400 3700 5400
+	4950 5100 4100 5100
 Wire Wire Line
-	4000 5500 3700 5500
+	4950 5200 4200 5200
 Wire Wire Line
-	4000 5600 3700 5600
+	4950 5300 4300 5300
 Wire Wire Line
-	4000 5700 3700 5700
+	4950 5400 4400 5400
 Wire Wire Line
-	4000 5800 3700 5800
+	4950 5500 4500 5500
 $Comp
 L Baikal-T1:Baikal_BE-T1000 DD?
 U 4 1 5DD736B7
-P 4000 5300
-F 0 "DD?" H 4350 5500 60  0000 L CNN
-F 1 "Baikal_BE-T1000" H 4050 4600 60  0000 L CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 4200 5350 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 4200 5150 60  0001 L CNN
-F 4 "BE-T1000" H 4200 5250 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 4200 5050 60  0001 L CNN "Поле5"
-	4    4000 5300
+P 4950 5000
+F 0 "DD?" H 5300 5200 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 5000 4300 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5150 5050 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5150 4850 60  0001 L CNN
+F 4 "BE-T1000" H 5150 4950 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 5150 4750 60  0001 L CNN "Поле5"
+	4    4950 5000
 	1    0    0    -1  
 $EndComp
+Text Label 3500 5000 0    50   ~ 0
+I2C0_SCL
+Text Label 3500 5200 0    50   ~ 0
+I2C1_SCL
+Text Label 3500 5400 0    50   ~ 0
+I2C2_SCL
+Text Label 3500 5100 0    50   ~ 0
+I2C0_SDA
+Text Label 3500 5300 0    50   ~ 0
+I2C1_SDA
+Text Label 3500 5500 0    50   ~ 0
+I2C2_SDA
+$Comp
+L CIAA_ACC:R R?
+U 1 1 5DC403C0
+P 4000 4600
+F 0 "R?" H 4050 4750 50  0000 L CNN
+F 1 "3K3" V 4000 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4070 4509 50  0001 L CNN
+F 3 "" H 4000 4600 50  0000 C CNN
+	1    4000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CIAA_ACC:R R?
+U 1 1 5DC408E4
+P 4100 4600
+F 0 "R?" H 4150 4750 50  0000 L CNN
+F 1 "3K3" V 4100 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4170 4509 50  0001 L CNN
+F 3 "" H 4100 4600 50  0000 C CNN
+	1    4100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CIAA_ACC:R R?
+U 1 1 5DC4199C
+P 4200 4600
+F 0 "R?" H 4250 4750 50  0000 L CNN
+F 1 "3K3" V 4200 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4270 4509 50  0001 L CNN
+F 3 "" H 4200 4600 50  0000 C CNN
+	1    4200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CIAA_ACC:R R?
+U 1 1 5DC419A2
+P 4300 4600
+F 0 "R?" H 4350 4750 50  0000 L CNN
+F 1 "3K3" V 4300 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4370 4509 50  0001 L CNN
+F 3 "" H 4300 4600 50  0000 C CNN
+	1    4300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CIAA_ACC:R R?
+U 1 1 5DC41EE3
+P 4400 4600
+F 0 "R?" H 4450 4750 50  0000 L CNN
+F 1 "3K3" V 4400 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4470 4509 50  0001 L CNN
+F 3 "" H 4400 4600 50  0000 C CNN
+	1    4400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CIAA_ACC:R R?
+U 1 1 5DC41EE9
+P 4500 4600
+F 0 "R?" H 4550 4750 50  0000 L CNN
+F 1 "3K3" V 4500 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4570 4509 50  0001 L CNN
+F 3 "" H 4500 4600 50  0000 C CNN
+	1    4500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4450 4000 4350
+Wire Wire Line
+	4000 4350 4100 4350
+Wire Wire Line
+	4500 4350 4500 4450
+Wire Wire Line
+	4100 4450 4100 4350
+Connection ~ 4100 4350
+Wire Wire Line
+	4100 4350 4200 4350
+Wire Wire Line
+	4200 4450 4200 4350
+Connection ~ 4200 4350
+Wire Wire Line
+	4200 4350 4300 4350
+Wire Wire Line
+	4300 4450 4300 4350
+Connection ~ 4300 4350
+Wire Wire Line
+	4300 4350 4400 4350
+Wire Wire Line
+	4400 4450 4400 4350
+Connection ~ 4400 4350
+Wire Wire Line
+	4400 4350 4500 4350
+Wire Wire Line
+	4000 4750 4000 5000
+Connection ~ 4000 5000
+Wire Wire Line
+	4000 5000 3500 5000
+Wire Wire Line
+	4100 4750 4100 5100
+Connection ~ 4100 5100
+Wire Wire Line
+	4100 5100 3500 5100
+Wire Wire Line
+	4200 4750 4200 5200
+Connection ~ 4200 5200
+Wire Wire Line
+	4200 5200 3500 5200
+Wire Wire Line
+	4300 4750 4300 5300
+Connection ~ 4300 5300
+Wire Wire Line
+	4300 5300 3500 5300
+Wire Wire Line
+	4400 4750 4400 5400
+Connection ~ 4400 5400
+Wire Wire Line
+	4400 5400 3500 5400
+Wire Wire Line
+	4500 4750 4500 5500
+Connection ~ 4500 5500
+Wire Wire Line
+	4500 5500 3500 5500
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5DC550CC
+P 4200 4150
+F 0 "#PWR?" H 4200 4000 50  0001 C CNN
+F 1 "+1V8" H 4215 4323 50  0000 C CNN
+F 2 "" H 4200 4150 50  0001 C CNN
+F 3 "" H 4200 4150 50  0001 C CNN
+	1    4200 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4350 4200 4150
+$Sheet
+S 2750 6600 800  300 
+U 5DCC3576
+F0 "I2C0_1V8_3V3" 50
+F1 "TCA9406DC.sch" 50
+F2 "SDA_B" B R 3550 6800 50 
+F3 "SCL_B" O R 3550 6700 50 
+F4 "SDA_A" B L 2750 6800 50 
+F5 "SCL_A" I L 2750 6700 50 
+$EndSheet
+Text Label 2300 6700 0    50   ~ 0
+I2C0_SCL
+Text Label 2300 6800 0    50   ~ 0
+I2C0_SDA
+Wire Wire Line
+	2750 6700 2300 6700
+Wire Wire Line
+	2750 6800 2300 6800
+$Sheet
+S 2750 7100 800  300 
+U 5DCE4A17
+F0 "I2C1_1V8_3V3" 50
+F1 "TCA9406DC.sch" 50
+F2 "SDA_B" B R 3550 7300 50 
+F3 "SCL_B" O R 3550 7200 50 
+F4 "SDA_A" B L 2750 7300 50 
+F5 "SCL_A" I L 2750 7200 50 
+$EndSheet
+Text Label 2300 7200 0    50   ~ 0
+I2C1_SCL
+Text Label 2300 7300 0    50   ~ 0
+I2C1_SDA
+Wire Wire Line
+	2750 7200 2300 7200
+Wire Wire Line
+	2750 7300 2300 7300
+$Sheet
+S 2750 7600 800  300 
+U 5DCEA136
+F0 "I2C2_1V8_3V3" 50
+F1 "TCA9406DC.sch" 50
+F2 "SDA_B" B R 3550 7800 50 
+F3 "SCL_B" O R 3550 7700 50 
+F4 "SDA_A" B L 2750 7800 50 
+F5 "SCL_A" I L 2750 7700 50 
+$EndSheet
+Text Label 2300 7700 0    50   ~ 0
+I2C2_SCL
+Text Label 2300 7800 0    50   ~ 0
+I2C2_SDA
+Wire Wire Line
+	2750 7700 2300 7700
+Wire Wire Line
+	2750 7800 2300 7800
+Wire Wire Line
+	3550 6700 3850 6700
+Wire Wire Line
+	3550 6800 3850 6800
+Wire Wire Line
+	3550 7200 3850 7200
+Wire Wire Line
+	3550 7300 3850 7300
+$Sheet
+S 5300 6600 850  400 
+U 5DD65D6F
+F0 "RTC_DS3231" 50
+F1 "RTC_DS3231.sch" 50
+F2 "SCL" I L 5300 6700 50 
+F3 "SDA" B L 5300 6800 50 
+F4 "nRST" I L 5300 6900 50 
+F5 "nINT" O R 6150 6700 50 
+F6 "32kHz" O R 6150 6800 50 
+$EndSheet
+Text Label 4750 6700 0    50   ~ 0
+I2C2_SCL_3V3
+Text Label 4750 6800 0    50   ~ 0
+I2C2_SDA_3V3
+Wire Wire Line
+	5300 6700 4750 6700
+Wire Wire Line
+	5300 6800 4750 6800
+Text Label 4100 7700 2    50   ~ 0
+I2C2_SCL_3V3
+Text Label 4100 7800 2    50   ~ 0
+I2C2_SDA_3V3
+Wire Wire Line
+	3550 7700 4100 7700
+Wire Wire Line
+	3550 7800 4100 7800
+$Sheet
+S 5300 7200 850  300 
+U 5DDBF374
+F0 "AT24CS04" 50
+F1 "AT24CS04.sch" 50
+F2 "SCL" I L 5300 7300 50 
+F3 "SDA" B L 5300 7400 50 
+$EndSheet
+Text Label 4750 7300 0    50   ~ 0
+I2C2_SCL
+Text Label 4750 7400 0    50   ~ 0
+I2C2_SDA
+Wire Wire Line
+	5300 7300 4750 7300
+Wire Wire Line
+	5300 7400 4750 7400
 $EndSCHEMATC

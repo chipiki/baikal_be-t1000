@@ -17,3 +17,17 @@ Then launch KiCAD and open project file "baikal_be-t100.pro".
 
 Открытый проект отладочной платы для отечественного процессора Байкал BE-T1000 MIPS32 Warrior P-class P5600.
 Проект в стадии активной разработки схемы. Так, что, пока, готовой версии печатной платы нет на данный момент.
+
+Как получить проект:
+Для начала нужно сказать KiCAD на http://kicad-pcb.org/download/
+Потом, необходимо установить Git отсюда https://git-scm.com/downloads , если он ещё не был установлен ранее.
+
+Затем необходимо выполнить следующие команды в git-bash:
+1) git clone https://github.com/chipiki/baikal_be-t1000.git
+2) cd baikal_be-t1000
+3) git submodule init
+4) git submodule update
+5) git submodule sync
+
+Затем запустите KiCAD и откройте файл проекта "baikal_be-t100.pro". 
+

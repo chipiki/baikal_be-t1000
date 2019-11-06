@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 5 28
+Sheet 6 31
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"
@@ -240,14 +240,6 @@ Wire Wire Line
 	2750 7700 2300 7700
 Wire Wire Line
 	2750 7800 2300 7800
-Wire Wire Line
-	3550 6700 3850 6700
-Wire Wire Line
-	3550 6800 3850 6800
-Wire Wire Line
-	3550 7200 3850 7200
-Wire Wire Line
-	3550 7300 3850 7300
 $Sheet
 S 5300 6600 850  400 
 U 5DD65D6F
@@ -291,4 +283,32 @@ Wire Wire Line
 	5300 7300 4750 7300
 Wire Wire Line
 	5300 7400 4750 7400
+Wire Wire Line
+	6150 6700 6300 6700
+Wire Wire Line
+	6150 6800 6300 6800
+Text Label 4100 7200 2    50   ~ 0
+I2C1_SCL_3V3
+Text Label 4100 7300 2    50   ~ 0
+I2C1_SDA_3V3
+Wire Wire Line
+	3550 7200 4100 7200
+Wire Wire Line
+	3550 7300 4100 7300
+Text Label 4100 6700 2    50   ~ 0
+I2C0_SCL_3V3
+Text Label 4100 6800 2    50   ~ 0
+I2C0_SDA_3V3
+Wire Wire Line
+	3550 6700 4100 6700
+Wire Wire Line
+	3550 6800 4100 6800
+Text GLabel 6300 6700 2    50   Output ~ 0
+RTC_nINT
+Text GLabel 6300 6800 2    50   Output ~ 0
+RTC_32kHz
+Wire Wire Line
+	5300 6900 5150 6900
+Text GLabel 5150 6900 0    50   Input ~ 0
+RTC_nRST
 $EndSCHEMATC

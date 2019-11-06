@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 12 22
+Sheet 11 23
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"
@@ -51,10 +51,10 @@ Wire Wire Line
 Wire Wire Line
 	4250 6300 3950 6300
 $Comp
-L Baikal-T1:Baikal_BE-T1000 DD1
+L Baikal-T1:Baikal_BE-T1000 DD?
 U 11 1 5DF1FBAE
 P 4250 4600
-F 0 "DD1" H 4750 4800 60  0000 L CNN
+F 0 "DD?" H 4750 4800 60  0000 L CNN
 F 1 "Baikal_BE-T1000" H 4450 2700 60  0000 L CNN
 F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 4450 4650 60  0001 L CNN
 F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 4450 4450 60  0001 L CNN

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 20 22
+Sheet 20 23
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"
@@ -15,10 +15,10 @@ Comment3 "Denis Tsekh"
 Comment4 "Denis Tsekh"
 $EndDescr
 $Comp
-L Baikal-T1:Baikal_BE-T1000 DD1
+L Baikal-T1:Baikal_BE-T1000 DD?
 U 5 1 5E0029D1
 P 5000 5150
-F 0 "DD1" H 5300 5350 60  0000 L CNN
+F 0 "DD?" H 5300 5350 60  0000 L CNN
 F 1 "Baikal_BE-T1000" H 5050 4550 60  0000 L CNN
 F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 5200 5200 60  0001 L CNN
 F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 5200 5000 60  0001 L CNN
@@ -57,7 +57,7 @@ P 4400 5550
 AR Path="/5DB92D28/5E1395AF/5E0FD2FA" Ref="R?"  Part="1" 
 AR Path="/5DB92D28/5DFFE209/5E0FD2FA" Ref="R?"  Part="1" 
 AR Path="/5DB92D28/5E1B7954/5E1C0993/5E0FD2FA" Ref="R48"  Part="1" 
-F 0 "R48" V 4350 5700 50  0000 C CNN
+F 0 "R?" V 4350 5700 50  0000 C CNN
 F 1 "33" V 4400 5550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 5550 50  0001 C CNN
 F 3 "~" H 4400 5550 50  0001 C CNN

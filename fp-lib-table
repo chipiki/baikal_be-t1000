@@ -27,4 +27,6 @@
   (lib (name OLIMEX_Switches-FP)(type KiCad)(uri ${KIPRJMOD}/Libraries/KiCAD/KiCAD_Footprints/OLIMEX_Switches-FP.pretty)(options "")(descr ""))
   (lib (name OLIMEX_TestPoints-FP)(type KiCad)(uri ${KIPRJMOD}/Libraries/KiCAD/KiCAD_Footprints/OLIMEX_TestPoints-FP.pretty)(options "")(descr ""))
   (lib (name OLIMEX_Transistors-FP)(type KiCad)(uri ${KIPRJMOD}/Libraries/KiCAD/KiCAD_Footprints/OLIMEX_Transistors-FP.pretty)(options "")(descr ""))
+  (lib (name dfn-qfn)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/dfn-qfn.pretty)(options "")(descr ""))
+  (lib (name samtec)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/samtec.pretty)(options "")(descr ""))
 )

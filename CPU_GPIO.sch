@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 4 32
+Sheet 4 33
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"
@@ -897,4 +897,278 @@ Text Label 5100 8200 2    50   ~ 0
 GPIO_30_3V3
 Text Label 5100 8300 2    50   ~ 0
 GPIO_31_3V3
+$Sheet
+S 2200 8150 850  900 
+U 5DC3BD84
+F0 "sheet5DC3BD72" 50
+F1 "TXB0108PWR.sch" 50
+F2 "A1" B L 2200 8250 50 
+F3 "A2" B L 2200 8350 50 
+F4 "A3" B L 2200 8450 50 
+F5 "A4" B L 2200 8550 50 
+F6 "A5" B L 2200 8650 50 
+F7 "A6" B L 2200 8750 50 
+F8 "A7" B L 2200 8850 50 
+F9 "A8" B L 2200 8950 50 
+F10 "B1" B R 3050 8250 50 
+F11 "B2" B R 3050 8350 50 
+F12 "B3" B R 3050 8450 50 
+F13 "B4" B R 3050 8550 50 
+F14 "B5" B R 3050 8650 50 
+F15 "B6" B R 3050 8750 50 
+F16 "B7" B R 3050 8850 50 
+F17 "B8" B R 3050 8950 50 
+$EndSheet
+Wire Wire Line
+	2200 8250 1800 8250
+Wire Wire Line
+	2200 8350 1800 8350
+Wire Wire Line
+	2200 8450 1800 8450
+Text Label 1800 8250 0    50   ~ 0
+GPIO3_0
+Text Label 1800 8350 0    50   ~ 0
+GPIO3_1
+Text Label 1800 8450 0    50   ~ 0
+GPIO3_2
+Wire Wire Line
+	3050 8250 3650 8250
+Wire Wire Line
+	3050 8350 3650 8350
+Wire Wire Line
+	3050 8450 3650 8450
+Text Label 3650 8250 2    50   ~ 0
+GPIO3_0_3V3
+Text Label 3650 8350 2    50   ~ 0
+GPIO3_1_3V3
+Text Label 3650 8450 2    50   ~ 0
+GPIO3_2_3V3
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DCA455E
+P 4300 8800
+F 0 "RN?" V 4000 8800 50  0000 C CNN
+F 1 "YC124-JR-07100KL" V 4500 8800 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 4575 8800 50  0001 C CNN
+F 3 "~" H 4300 8800 50  0001 C CNN
+	1    4300 8800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 8600 3950 8600
+Wire Wire Line
+	4100 8700 3950 8700
+Wire Wire Line
+	4100 8800 3950 8800
+Wire Wire Line
+	4100 8900 3950 8900
+Wire Wire Line
+	3950 8900 3950 8800
+Connection ~ 3950 8600
+Wire Wire Line
+	3950 8600 3950 8300
+Connection ~ 3950 8700
+Wire Wire Line
+	3950 8700 3950 8600
+Connection ~ 3950 8800
+Wire Wire Line
+	3950 8800 3950 8700
+Wire Wire Line
+	4500 8600 5100 8600
+Wire Wire Line
+	4500 8700 5100 8700
+Wire Wire Line
+	4500 8800 5100 8800
+Text Label 5100 8600 2    50   ~ 0
+GPIO3_0_3V3
+Text Label 5100 8700 2    50   ~ 0
+GPIO3_1_3V3
+Text Label 5100 8800 2    50   ~ 0
+GPIO3_2_3V3
+NoConn ~ 4500 8900
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5DCE9D7D
+P 6600 4650
+F 0 "J?" H 6650 5650 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 6650 3550 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x20_P1.27mm_Vertical_SMD" H 6600 4650 50  0001 C CNN
+F 3 "~" H 6600 4650 50  0001 C CNN
+	1    6600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3750 6350 3650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DCF25E4
+P 6350 3650
+F 0 "#PWR?" H 6350 3500 50  0001 C CNN
+F 1 "+3.3V" H 6365 3823 50  0000 C CNN
+F 2 "" H 6350 3650 50  0001 C CNN
+F 3 "" H 6350 3650 50  0001 C CNN
+	1    6350 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3750 6400 3750
+Wire Wire Line
+	6400 3850 5800 3850
+Wire Wire Line
+	6400 3950 5800 3950
+Wire Wire Line
+	6400 4050 5800 4050
+Wire Wire Line
+	6400 4150 5800 4150
+Wire Wire Line
+	6400 4250 5800 4250
+Wire Wire Line
+	6400 4350 5800 4350
+Wire Wire Line
+	6400 4450 5800 4450
+Wire Wire Line
+	6400 4550 5800 4550
+Text Label 5800 3850 0    50   ~ 0
+GPIO_0_3V3
+Text Label 5800 3950 0    50   ~ 0
+GPIO_1_3V3
+Text Label 5800 4050 0    50   ~ 0
+GPIO_2_3V3
+Text Label 5800 4150 0    50   ~ 0
+GPIO_3_3V3
+Text Label 5800 4250 0    50   ~ 0
+GPIO_4_3V3
+Text Label 5800 4350 0    50   ~ 0
+GPIO_5_3V3
+Text Label 5800 4450 0    50   ~ 0
+GPIO_6_3V3
+Text Label 5800 4550 0    50   ~ 0
+GPIO_7_3V3
+Wire Wire Line
+	6400 4650 5800 4650
+Wire Wire Line
+	6400 4750 5800 4750
+Wire Wire Line
+	6400 4850 5800 4850
+Wire Wire Line
+	6400 4950 5800 4950
+Wire Wire Line
+	6400 5050 5800 5050
+Wire Wire Line
+	6400 5150 5800 5150
+Wire Wire Line
+	6400 5250 5800 5250
+Wire Wire Line
+	6400 5350 5800 5350
+Text Label 5800 4650 0    50   ~ 0
+GPIO_8_3V3
+Text Label 5800 4750 0    50   ~ 0
+GPIO_9_3V3
+Text Label 5800 4850 0    50   ~ 0
+GPIO_10_3V3
+Text Label 5800 4950 0    50   ~ 0
+GPIO_11_3V3
+Text Label 5800 5050 0    50   ~ 0
+GPIO_12_3V3
+Text Label 5800 5150 0    50   ~ 0
+GPIO_13_3V3
+Text Label 5800 5250 0    50   ~ 0
+GPIO_14_3V3
+Text Label 5800 5350 0    50   ~ 0
+GPIO_15_3V3
+Wire Wire Line
+	6400 5450 5800 5450
+Wire Wire Line
+	6400 5550 5800 5550
+Text Label 5800 5450 0    50   ~ 0
+GPIO_16_3V3
+Text Label 5800 5550 0    50   ~ 0
+GPIO_17_3V3
+Wire Wire Line
+	6400 5650 5800 5650
+Wire Wire Line
+	6900 3850 7500 3850
+Wire Wire Line
+	6900 3950 7500 3950
+Wire Wire Line
+	6900 4050 7500 4050
+Wire Wire Line
+	6900 4150 7500 4150
+Wire Wire Line
+	6900 4250 7500 4250
+Text Label 5800 5650 0    50   ~ 0
+GPIO_18_3V3
+Text Label 7500 3850 2    50   ~ 0
+GPIO_19_3V3
+Text Label 7500 3950 2    50   ~ 0
+GPIO_20_3V3
+Text Label 7500 4050 2    50   ~ 0
+GPIO_21_3V3
+Text Label 7500 4150 2    50   ~ 0
+GPIO_22_3V3
+Text Label 7500 4250 2    50   ~ 0
+GPIO_23_3V3
+Wire Wire Line
+	6900 4350 7500 4350
+Wire Wire Line
+	6900 4450 7500 4450
+Wire Wire Line
+	6900 4550 7500 4550
+Wire Wire Line
+	6900 4650 7500 4650
+Wire Wire Line
+	6900 4750 7500 4750
+Wire Wire Line
+	6900 4850 7500 4850
+Wire Wire Line
+	6900 4950 7500 4950
+Wire Wire Line
+	6900 5050 7500 5050
+Text Label 7500 4350 2    50   ~ 0
+GPIO_24_3V3
+Text Label 7500 4450 2    50   ~ 0
+GPIO_25_3V3
+Text Label 7500 4550 2    50   ~ 0
+GPIO_26_3V3
+Text Label 7500 4650 2    50   ~ 0
+GPIO_27_3V3
+Text Label 7500 4750 2    50   ~ 0
+GPIO_28_3V3
+Text Label 7500 4850 2    50   ~ 0
+GPIO_29_3V3
+Text Label 7500 4950 2    50   ~ 0
+GPIO_30_3V3
+Text Label 7500 5050 2    50   ~ 0
+GPIO_31_3V3
+Wire Wire Line
+	6900 5150 7500 5150
+Wire Wire Line
+	6900 5250 7500 5250
+Wire Wire Line
+	6900 5350 7500 5350
+Text Label 7500 5150 2    50   ~ 0
+GPIO3_0_3V3
+Text Label 7500 5250 2    50   ~ 0
+GPIO3_1_3V3
+Text Label 7500 5350 2    50   ~ 0
+GPIO3_2_3V3
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DE0E093
+P 7100 3500
+F 0 "#PWR?" H 7100 3250 50  0001 C CNN
+F 1 "GNDD" H 7104 3345 50  0000 C CNN
+F 2 "" H 7100 3500 50  0001 C CNN
+F 3 "" H 7100 3500 50  0001 C CNN
+	1    7100 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3750 6950 3750
+Wire Wire Line
+	6950 3750 6950 3450
+Wire Wire Line
+	6950 3450 7100 3450
+Wire Wire Line
+	7100 3450 7100 3500
 $EndSCHEMATC

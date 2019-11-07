@@ -29,7 +29,7 @@ Then launch KiCAD and open project file "baikal_be-t100.pro".
 
 #### Как получить проект:
 
-Для начала нужно сказать KiCAD на http://kicad-pcb.org/download/
+Для начала нужно скачать KiCAD на http://kicad-pcb.org/download/
 
 Потом, необходимо установить Git отсюда https://git-scm.com/downloads , если он ещё не был установлен ранее.
 

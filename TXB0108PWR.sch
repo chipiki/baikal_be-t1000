@@ -4,15 +4,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 5 33
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Sheet 5 36
+Title "Baikal BE-T1000"
+Date "2019-10-31"
+Rev "001"
+Comp "chipiki.ru"
+Comment1 "Baikal BE-T1000"
+Comment2 "Denis Tsekh"
+Comment3 "Denis Tsekh"
+Comment4 "Denis Tsekh"
 $EndDescr
 $Comp
 L OLIMEX_IC:TXB0108PWR(TSSOP-20) U?

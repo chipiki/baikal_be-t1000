@@ -4,15 +4,15 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 9 33
-Title "ATMega644PA-AU Comunication module"
-Date "2018-02-09"
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Sheet 9 36
+Title "Baikal BE-T1000"
+Date "2019-10-31"
+Rev "001"
+Comp "chipiki.ru"
+Comment1 "Baikal BE-T1000"
+Comment2 "Denis Tsekh"
+Comment3 "Denis Tsekh"
+Comment4 "Denis Tsekh"
 $EndDescr
 $Comp
 L Timer_RTC:DS3231M U?

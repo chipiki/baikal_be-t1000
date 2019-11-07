@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 13 33
+Sheet 22 36
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"
@@ -15,15 +15,15 @@ Comment3 "Denis Tsekh"
 Comment4 "Denis Tsekh"
 $EndDescr
 Wire Wire Line
-	3950 5500 3650 5500
+	3950 5500 3500 5500
 Wire Wire Line
-	3950 5600 3650 5600
+	3950 5600 3500 5600
 Wire Wire Line
-	3950 5700 3650 5700
+	3950 5700 3500 5700
 Wire Wire Line
-	3950 5800 3650 5800
+	3950 5800 3500 5800
 Wire Wire Line
-	3950 5900 3650 5900
+	3950 5900 3500 5900
 $Comp
 L Baikal-T1:Baikal_BE-T1000 DD?
 U 12 1 5DF41AB7
@@ -37,4 +37,45 @@ F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 4150 5250 6
 	12   3950 5500
 	1    0    0    -1  
 $EndComp
+Text Notes 5250 7000 0    50   ~ 0
+1) b00 - ROM mode\n2) b01 - SRAM mode\n3) b10 - FLASH mode (default)\n4) b11 - Reserved
+$Sheet
+S 4150 6550 900  200 
+U 5DC420B6
+F0 "CPU_BOOT_PIN_0" 50
+F1 "CPU_BOOT_PIN.sch" 50
+F2 "OUT" O L 4150 6650 50 
+$EndSheet
+Text Label 3500 5500 0    50   ~ 0
+BOOTCFG_0
+Text Label 3500 5600 0    50   ~ 0
+BOOTCFG_1
+Wire Wire Line
+	4150 6650 3700 6650
+Wire Wire Line
+	4150 7050 3700 7050
+Text Label 3700 6650 0    50   ~ 0
+BOOTCFG_0
+Text Label 3700 7050 0    50   ~ 0
+BOOTCFG_1
+$Sheet
+S 4150 6950 900  200 
+U 5DC54AAE
+F0 "CPU_BOOT_PIN_1" 50
+F1 "CPU_BOOT_PIN.sch" 50
+F2 "OUT" O L 4150 7050 50 
+$EndSheet
+Text Label 3500 5900 0    50   ~ 0
+RESET
+Text Label 3750 7450 0    50   ~ 0
+RESET
+Wire Wire Line
+	3750 7450 4150 7450
+$Sheet
+S 4150 7350 900  200 
+U 5DCD3ACD
+F0 "CPU_RESET_PIN" 50
+F1 "CPU_RESET_PIN.sch" 50
+F2 "OUT" O L 4150 7450 50 
+$EndSheet
 $EndSCHEMATC

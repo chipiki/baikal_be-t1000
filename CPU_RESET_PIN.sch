@@ -1,0 +1,84 @@
+EESchema Schematic File Version 4
+LIBS:baikal_be-t100-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 25 36
+Title "Baikal BE-T1000"
+Date "2019-10-31"
+Rev "001"
+Comp "chipiki.ru"
+Comment1 "Baikal BE-T1000"
+Comment2 "Denis Tsekh"
+Comment3 "Denis Tsekh"
+Comment4 "Denis Tsekh"
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5DCD9982
+P 4800 5200
+AR Path="/5DB92D28/5E1B7954/5E1C0991/5DCD9982" Ref="R?"  Part="1" 
+AR Path="/5DB92D28/5DD34BBA/5DCD9982" Ref="R?"  Part="1" 
+AR Path="/5DB92D28/5DD34BBA/5DCD3ACD/5DCD9982" Ref="R?"  Part="1" 
+F 0 "R?" H 4650 5150 50  0000 C CNN
+F 1 "10K" H 4650 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 5200 50  0001 C CNN
+F 3 "~" H 4800 5200 50  0001 C CNN
+	1    4800 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5DCD9988
+P 4700 5850
+AR Path="/5DB92D28/5E1B7954/5E1C0991/5DCD9988" Ref="Q?"  Part="1" 
+AR Path="/5DB92D28/5DD34BBA/5DCD9988" Ref="Q?"  Part="1" 
+AR Path="/5DB92D28/5DD34BBA/5DCD3ACD/5DCD9988" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4905 5896 50  0000 L CNN
+F 1 "FDV305N" H 4905 5805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23" H 4900 5950 50  0001 C CNN
+F 3 "~" H 4700 5850 50  0001 C CNN
+	1    4700 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DCD998E
+P 4800 6200
+F 0 "#PWR?" H 4800 5950 50  0001 C CNN
+F 1 "GNDD" H 4804 6045 50  0000 C CNN
+F 2 "" H 4800 6200 50  0001 C CNN
+F 3 "" H 4800 6200 50  0001 C CNN
+	1    4800 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 6050 4800 6200
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5DCD9995
+P 4800 4900
+F 0 "#PWR?" H 4800 4750 50  0001 C CNN
+F 1 "+1V8" H 4815 5073 50  0000 C CNN
+F 2 "" H 4800 4900 50  0001 C CNN
+F 3 "" H 4800 4900 50  0001 C CNN
+	1    4800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4900 4800 5050
+Text GLabel 4350 5850 0    50   Input ~ 0
+nCPU_RESET
+Wire Wire Line
+	4800 5650 4800 5500
+Wire Wire Line
+	4350 5500 4800 5500
+Wire Wire Line
+	4500 5850 4350 5850
+Text HLabel 4350 5500 0    50   Output ~ 0
+OUT
+Wire Wire Line
+	4800 5350 4800 5500
+Connection ~ 4800 5500
+$EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 31 33
+Sheet 31 36
 Title "Baikal BE-T1000"
 Date "2019-10-31"
 Rev "001"

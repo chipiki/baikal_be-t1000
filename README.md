@@ -4,7 +4,7 @@
 
 OpenHardware development board for Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor
 
-Project status is "active chematic development". So, we haven't production PCB at this moment.
+Project status is "active schematic development". So, we haven't production PCB at this moment.
 
 #### How to get this project:
 

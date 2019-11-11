@@ -44,21 +44,6 @@ F 3 "~" H 3650 4650 50  0001 C CNN
 	1    3650 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 5DD933DC
-P 3300 5350
-AR Path="/5DB92D28/5DD34BBA/5DD933DC" Ref="#PWR?"  Part="1" 
-AR Path="/5DB92D28/5DD34BBA/5DC420B6/5DD933DC" Ref="#PWR?"  Part="1" 
-AR Path="/5DB92D28/5DD34BBA/5DC54AAE/5DD933DC" Ref="#PWR?"  Part="1" 
-AR Path="/5DB92D28/5DC17EE3/5DD90EB6/5DD933DC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3300 5100 50  0001 C CNN
-F 1 "GNDD" H 3304 5195 50  0000 C CNN
-F 2 "" H 3300 5350 50  0001 C CNN
-F 3 "" H 3300 5350 50  0001 C CNN
-	1    3300 5350
-	1    0    0    -1  
-$EndComp
 Text HLabel 3100 4750 0    50   Output ~ 0
 VPVT
 Text HLabel 3100 4950 0    50   Output ~ 0
@@ -269,7 +254,4 @@ F 3 "~" H 4400 6250 50  0001 C CNN
 	1    4400 6250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 5250 3300 5350
-Connection ~ 3300 5250
 $EndSCHEMATC

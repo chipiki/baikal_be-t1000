@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 23 36
+Sheet 25 38
 Title "Baikal BE-T1000"
-Date "2019-10-31"
+Date "2019-11-11"
 Rev "001"
 Comp "chipiki.ru"
 Comment1 "Baikal BE-T1000"
@@ -56,7 +56,7 @@ AR Path="/5DB92D28/5DD34BBA/5DC420B6/5DC43D35" Ref="J?"  Part="1"
 AR Path="/5DB92D28/5DD34BBA/5DC54AAE/5DC43D35" Ref="J?"  Part="1" 
 F 0 "J?" H 4730 5742 50  0000 L CNN
 F 1 "Conn_01x02" H 4730 5651 50  0000 L CNN
-F 2 "" H 4650 5750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 5750 50  0001 C CNN
 F 3 "~" H 4650 5750 50  0001 C CNN
 	1    4650 5750
 	1    0    0    -1  

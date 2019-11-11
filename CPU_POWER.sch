@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 8 36
+Sheet 17 38
 Title "Baikal BE-T1000"
-Date "2019-10-31"
+Date "2019-11-11"
 Rev "001"
 Comp "chipiki.ru"
 Comment1 "Baikal BE-T1000"
@@ -355,7 +355,7 @@ Wire Wire Line
 	4700 2300 4700 2100
 Connection ~ 4700 2300
 Wire Wire Line
-	6000 2400 6000 2100
+	6000 2400 6000 2250
 Connection ~ 6000 2400
 Wire Wire Line
 	2500 2300 2350 2300
@@ -932,11 +932,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 8550 4900 8550
 Wire Wire Line
-	4750 6450 4900 6450
-Wire Wire Line
-	4750 6550 4900 6550
-Wire Wire Line
-	4750 6650 4900 6650
+	4650 6650 4900 6650
 Wire Wire Line
 	4650 9200 4800 9200
 Wire Wire Line
@@ -1061,4 +1057,69 @@ F 3 "" H 4750 7250 50  0001 C CNN
 	1    4750 7250
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 6500 6350 750  400 
+U 5DD90EB6
+F0 "VPVT_GPVT" 50
+F1 "VPVT_GPVT.sch" 50
+F2 "VPVT" O L 6500 6550 50 
+F3 "GPVT" O L 6500 6450 50 
+F4 "VQPVS" O L 6500 6650 50 
+$EndSheet
+Wire Wire Line
+	6200 6450 6500 6450
+Wire Wire Line
+	6200 6550 6500 6550
+Text Label 6200 6450 0    50   ~ 0
+GPVT
+Text Label 6200 6550 0    50   ~ 0
+VPVT
+Wire Wire Line
+	4650 6450 4900 6450
+Wire Wire Line
+	4650 6550 4900 6550
+Text Label 4650 6450 0    50   ~ 0
+GPVT
+Text Label 4650 6550 0    50   ~ 0
+VPVT
+Wire Wire Line
+	6200 6650 6500 6650
+Text Label 6200 6650 0    50   ~ 0
+VQPVS
+Text Label 4650 6650 0    50   ~ 0
+VQPVS
+$Comp
+L Baikal_Power:+0V95 #PWR?
+U 1 1 5DFA57DB
+P 4700 2100
+F 0 "#PWR?" H 4700 1950 50  0001 C CNN
+F 1 "+0V95" H 4715 2273 50  0000 C CNN
+F 2 "" H 4700 2100 50  0001 C CNN
+F 3 "" H 4700 2100 50  0001 C CNN
+	1    4700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Baikal_Power:+0V95 #PWR?
+U 1 1 5DFA5D75
+P 6000 2100
+F 0 "#PWR?" H 6000 1950 50  0001 C CNN
+F 1 "+0V95" H 6015 2273 50  0000 C CNN
+F 2 "" H 6000 2100 50  0001 C CNN
+F 3 "" H 6000 2100 50  0001 C CNN
+	1    6000 2100
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6200 2150 950  200 
+U 5DCCE0D0
+F0 "CPU_VDD_CAPS" 50
+F1 "CPU_VDD_CAPS.sch" 50
+F2 "+0V95" O L 6200 2250 50 
+$EndSheet
+Wire Wire Line
+	6200 2250 6000 2250
+Connection ~ 6000 2250
+Wire Wire Line
+	6000 2250 6000 2100
 $EndSCHEMATC

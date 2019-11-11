@@ -18,4 +18,5 @@
   (lib (name OLIMEX_Switches)(type Legacy)(uri ${KIPRJMOD}/Libraries/KiCAD/KiCAD_Components/OLIMEX_Switches.lib)(options "")(descr ""))
   (lib (name OLIMEX_Transistors)(type Legacy)(uri ${KIPRJMOD}/Libraries/KiCAD/KiCAD_Components/OLIMEX_Transistors.lib)(options "")(descr ""))
   (lib (name CIAA_ACC)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/CIAA_ACC.lib)(options "")(descr ""))
+  (lib (name Baikal_Power)(type Legacy)(uri ${KIPRJMOD}/Libraries/Symbols/Baikal_Power.lib)(options "")(descr ""))
 )

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +0V95
+D Power symbol creates a global label with name "+1V0"
+K power-flag
+$ENDCMP
+#
+#End Doc Library

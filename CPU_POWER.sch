@@ -1122,4 +1122,54 @@ Wire Wire Line
 Connection ~ 6000 2250
 Wire Wire Line
 	6000 2250 6000 2100
+Wire Wire Line
+	4050 6600 4050 6700
+Connection ~ 4050 6700
+Wire Wire Line
+	4050 6700 4050 6800
+Connection ~ 4050 6800
+Wire Wire Line
+	4050 6800 4050 6900
+Connection ~ 4050 6900
+Wire Wire Line
+	4050 6900 4050 7000
+Connection ~ 4050 7000
+Wire Wire Line
+	4050 7000 4050 7100
+Connection ~ 4050 7100
+Wire Wire Line
+	4050 7100 4050 7200
+Connection ~ 4050 7200
+Wire Wire Line
+	4050 7200 4050 7300
+Connection ~ 4050 7300
+Wire Wire Line
+	4050 7300 4050 7400
+Connection ~ 4050 7400
+Wire Wire Line
+	4050 7400 4050 7500
+Connection ~ 4050 7500
+Wire Wire Line
+	4050 7500 4050 7600
+Connection ~ 4050 7600
+Wire Wire Line
+	4050 7600 4050 7700
+Connection ~ 4050 7700
+Wire Wire Line
+	4050 7700 4050 7800
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E419EB2
+P 4250 7250
+F 0 "#PWR?" H 4250 7000 50  0001 C CNN
+F 1 "GNDD" H 4254 7095 50  0000 C CNN
+F 2 "" H 4250 7250 50  0001 C CNN
+F 3 "" H 4250 7250 50  0001 C CNN
+	1    4250 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 7200 4250 7200
+Wire Wire Line
+	4250 7200 4250 7250
 $EndSCHEMATC

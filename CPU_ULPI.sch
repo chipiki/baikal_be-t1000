@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 14 38
+Sheet 29 38
 Title "Baikal BE-T1000"
 Date "2019-11-11"
 Rev "001"
@@ -15,29 +15,29 @@ Comment3 "Denis Tsekh"
 Comment4 "Denis Tsekh"
 $EndDescr
 Wire Wire Line
-	6400 4550 5950 4550
+	6000 4550 5600 4550
 Wire Wire Line
-	6400 4650 5950 4650
+	6750 4650 6300 4650
 Wire Wire Line
-	6400 4750 5950 4750
+	6750 4750 6300 4750
 Wire Wire Line
-	6400 4850 5950 4850
+	6750 4850 6300 4850
 Wire Wire Line
-	6400 4950 5950 4950
+	6750 4950 6300 4950
 Wire Wire Line
-	6400 5050 5950 5050
+	6750 5050 6300 5050
 Wire Wire Line
-	6400 5150 5950 5150
+	6750 5150 6300 5150
 Wire Wire Line
-	6400 5250 5950 5250
+	6750 5250 6300 5250
 Wire Wire Line
-	6400 5350 5950 5350
+	6750 5350 6300 5350
 Wire Wire Line
-	6400 5450 5950 5450
+	6000 5450 5600 5450
 Wire Wire Line
-	6400 5550 5950 5550
+	6000 5550 5600 5550
 Wire Wire Line
-	6400 5650 5950 5650
+	6000 5650 5600 5650
 Wire Wire Line
 	6400 6350 5900 6350
 Wire Wire Line
@@ -77,29 +77,29 @@ Wire Wire Line
 	4050 6250 4150 6250
 Wire Wire Line
 	4050 6250 4050 6400
-Text Label 5950 4650 0    50   ~ 0
+Text Label 6300 4650 0    50   ~ 0
 ULPI_DATA0
-Text Label 5950 4750 0    50   ~ 0
+Text Label 6300 4750 0    50   ~ 0
 ULPI_DATA1
-Text Label 5950 4850 0    50   ~ 0
+Text Label 6300 4850 0    50   ~ 0
 ULPI_DATA2
-Text Label 5950 4950 0    50   ~ 0
+Text Label 6300 4950 0    50   ~ 0
 ULPI_DATA3
-Text Label 5950 5050 0    50   ~ 0
+Text Label 6300 5050 0    50   ~ 0
 ULPI_DATA4
-Text Label 5950 5150 0    50   ~ 0
+Text Label 6300 5150 0    50   ~ 0
 ULPI_DATA5
-Text Label 5950 5250 0    50   ~ 0
+Text Label 6300 5250 0    50   ~ 0
 ULPI_DATA6
-Text Label 5950 5350 0    50   ~ 0
+Text Label 6300 5350 0    50   ~ 0
 ULPI_DATA7
-Text Label 5950 4550 0    50   ~ 0
+Text Label 5600 4550 0    50   ~ 0
 ULPI_CLK
-Text Label 5950 5450 0    50   ~ 0
+Text Label 5600 5450 0    50   ~ 0
 ULPI_DIR
-Text Label 5950 5550 0    50   ~ 0
+Text Label 5600 5550 0    50   ~ 0
 ULPI_NXT
-Text Label 5950 5650 0    50   ~ 0
+Text Label 5600 5650 0    50   ~ 0
 ULPI_STP
 Wire Wire Line
 	4850 5350 5300 5350
@@ -1063,14 +1063,14 @@ EXTBUS_FLG
 $Comp
 L Baikal-T1:Baikal_BE-T1000 DD?
 U 15 1 5DFD54B1
-P 6400 4550
-F 0 "DD?" H 6850 4750 60  0000 L CNN
-F 1 "Baikal_BE-T1000" H 6550 3250 60  0000 L CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 6600 4600 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 6600 4400 60  0001 L CNN
-F 4 "BE-T1000" H 6600 4500 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 6600 4300 60  0001 L CNN "Поле5"
-	15   6400 4550
+P 6750 4550
+F 0 "DD?" H 7200 4750 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 6900 3250 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 6950 4600 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 6950 4400 60  0001 L CNN
+F 4 "BE-T1000" H 6950 4500 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 6950 4300 60  0001 L CNN "Поле5"
+	15   6750 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1086,4 +1086,56 @@ F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 6600 6100 6
 	16   6400 6350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD41A2E
+P 6150 4550
+F 0 "R?" V 6250 4600 50  0000 R CNN
+F 1 "22R" V 6150 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6080 4550 50  0001 C CNN
+F 3 "~" H 6150 4550 50  0001 C CNN
+	1    6150 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DDAF01D
+P 6150 5450
+F 0 "R?" V 6200 5350 50  0000 R CNN
+F 1 "22R" V 6150 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6080 5450 50  0001 C CNN
+F 3 "~" H 6150 5450 50  0001 C CNN
+	1    6150 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DDAF38F
+P 6150 5550
+F 0 "R?" V 6200 5450 50  0000 R CNN
+F 1 "22R" V 6150 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6080 5550 50  0001 C CNN
+F 3 "~" H 6150 5550 50  0001 C CNN
+	1    6150 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DDAF542
+P 6150 5650
+F 0 "R?" V 6200 5550 50  0000 R CNN
+F 1 "22R" V 6150 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6080 5650 50  0001 C CNN
+F 3 "~" H 6150 5650 50  0001 C CNN
+	1    6150 5650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 4550 6750 4550
+Wire Wire Line
+	6300 5450 6750 5450
+Wire Wire Line
+	6300 5550 6750 5550
+Wire Wire Line
+	6300 5650 6750 5650
 $EndSCHEMATC

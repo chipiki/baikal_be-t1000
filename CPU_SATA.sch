@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 10 38
+Sheet 22 40
 Title "Baikal BE-T1000"
-Date "2019-11-11"
+Date "2020-01-17"
 Rev "001"
 Comp "chipiki.ru"
 Comment1 "Baikal BE-T1000"
@@ -15,113 +15,319 @@ Comment3 "Denis Tsekh"
 Comment4 "Denis Tsekh"
 $EndDescr
 Wire Wire Line
-	3650 5000 3150 5000
+	3000 3200 2500 3200
 Wire Wire Line
-	3650 5100 3150 5100
+	3000 3300 2500 3300
 Wire Wire Line
-	3650 5200 3150 5200
+	3000 3400 2500 3400
 Wire Wire Line
-	3650 5300 3150 5300
+	3000 3500 2500 3500
 Wire Wire Line
-	3650 5400 3150 5400
+	3000 3600 2500 3600
 Wire Wire Line
-	3650 5500 3150 5500
+	3000 3700 2500 3700
 Wire Wire Line
-	3650 5600 3150 5600
+	3000 3800 2500 3800
 Wire Wire Line
-	3650 5700 3150 5700
+	3000 3900 2500 3900
 Wire Wire Line
-	3650 5900 3150 5900
+	3000 4100 2500 4100
 Wire Wire Line
-	3650 6000 3150 6000
+	3000 4200 2500 4200
 Wire Wire Line
-	3650 6100 3150 6100
+	3000 4300 2500 4300
 Wire Wire Line
-	3650 6200 3150 6200
+	3000 4400 2500 4400
 Wire Wire Line
-	3650 6300 3150 6300
+	3000 4500 2500 4500
 Wire Wire Line
-	3650 6400 3150 6400
+	3000 4600 2500 4600
 Wire Wire Line
-	3650 6500 3150 6500
+	3000 4700 2500 4700
 Wire Wire Line
-	3650 6600 3150 6600
+	3000 4800 2500 4800
 Wire Wire Line
-	3800 7450 3500 7450
+	3150 5650 2850 5650
 Wire Wire Line
-	3800 7550 3500 7550
+	3150 5750 2850 5750
 Wire Wire Line
-	3800 7650 3500 7650
-Text Label 3150 5900 0    50   ~ 0
+	3150 5850 2850 5850
+Text Label 2500 4100 0    50   ~ 0
 SATA_RXM0_N
-Text Label 3150 6000 0    50   ~ 0
+Text Label 2500 4200 0    50   ~ 0
 SATA_RXM1_N
-Text Label 3150 6100 0    50   ~ 0
+Text Label 2500 4300 0    50   ~ 0
 SATA_RXP0_P
-Text Label 3150 6200 0    50   ~ 0
+Text Label 2500 4400 0    50   ~ 0
 SATA_RXP1_P
-Text Label 3150 6300 0    50   ~ 0
+Text Label 2500 4500 0    50   ~ 0
 SATA_TXM0_N
-Text Label 3150 6400 0    50   ~ 0
+Text Label 2500 4600 0    50   ~ 0
 SATA_TXM1_N
-Text Label 3150 6500 0    50   ~ 0
+Text Label 2500 4700 0    50   ~ 0
 SATA_TXP0_P
-Text Label 3150 6600 0    50   ~ 0
+Text Label 2500 4800 0    50   ~ 0
 SATA_TXP1_P
 $Comp
 L Device:R R?
 U 1 1 5DF0D7FB
-P 2900 5800
+P 2250 4000
 AR Path="/5DB92D28/5DD95AF0/5DF0D7FB" Ref="R?"  Part="1" 
 AR Path="/5DB92D28/5DCF98FD/5DF0D7FB" Ref="R2"  Part="1" 
-F 0 "R2" V 3000 5850 50  0000 R CNN
-F 1 "200" V 2900 5800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2830 5800 50  0001 C CNN
-F 3 "~" H 2900 5800 50  0001 C CNN
-	1    2900 5800
+F 0 "R2" V 2350 4050 50  0000 R CNN
+F 1 "200" V 2250 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2180 4000 50  0001 C CNN
+F 3 "~" H 2250 4000 50  0001 C CNN
+	1    2250 4000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2650 5800 2750 5800
+	2000 4000 2100 4000
 Wire Wire Line
-	3050 5800 3650 5800
+	2400 4000 3000 4000
 $Comp
 L OLIMEX_Power:GNDD #PWR?
 U 1 1 5DF16DE2
-P 2650 5850
-F 0 "#PWR?" H 2650 5600 50  0001 C CNN
-F 1 "GNDD" H 2655 5677 50  0000 C CNN
-F 2 "" H 2650 5850 60  0000 C CNN
-F 3 "" H 2650 5850 60  0000 C CNN
-	1    2650 5850
+P 2000 4050
+F 0 "#PWR?" H 2000 3800 50  0001 C CNN
+F 1 "GNDD" H 2005 3877 50  0000 C CNN
+F 2 "" H 2000 4050 60  0000 C CNN
+F 3 "" H 2000 4050 60  0000 C CNN
+	1    2000 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 5800 2650 5850
+	2000 4000 2000 4050
 $Comp
 L Baikal-T1:Baikal_BE-T1000 DD?
 U 10 1 5DF016F1
-P 3650 5000
-F 0 "DD?" H 4200 5200 60  0000 L CNN
-F 1 "Baikal_BE-T1000" H 3900 3200 60  0000 L CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 3850 5050 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 3850 4850 60  0001 L CNN
-F 4 "BE-T1000" H 3850 4950 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 3850 4750 60  0001 L CNN "Поле5"
-	10   3650 5000
+P 3000 3200
+F 0 "DD?" H 3550 3400 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 3250 1400 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 3200 3250 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 3200 3050 60  0001 L CNN
+F 4 "BE-T1000" H 3200 3150 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 3200 2950 60  0001 L CNN "Поле5"
+	10   3000 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Baikal-T1:Baikal_BE-T1000 DD?
 U 22 1 5DF0EDE6
-P 3800 7450
-F 0 "DD?" H 4200 7650 60  0000 L CNN
-F 1 "Baikal_BE-T1000" H 3900 7050 60  0000 L CNN
-F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 4000 7500 60  0001 L CNN
-F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 4000 7300 60  0001 L CNN
-F 4 "BE-T1000" H 4000 7400 60  0001 L CNN "manf#"
-F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 4000 7200 60  0001 L CNN "Поле5"
-	22   3800 7450
+P 3150 5650
+F 0 "DD?" H 3550 5850 60  0000 L CNN
+F 1 "Baikal_BE-T1000" H 3250 5250 60  0000 L CNN
+F 2 "Housing_BGA_Baikal:BGA-576_24x24_25.0x25.0mm" H 3350 5700 60  0001 L CNN
+F 3 "https://raw.githubusercontent.com/chipiki/baikal_be-t1000-kicad-lib/master/Datasheet/Kratkaya-spetsifikatsiya-protsessora-BE_T1000.pdf" H 3350 5500 60  0001 L CNN
+F 4 "BE-T1000" H 3350 5600 60  0001 L CNN "manf#"
+F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 3350 5400 60  0001 L CNN "Поле5"
+	22   3150 5650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5700 3200 4950 3200
+Wire Wire Line
+	5700 3300 4950 3300
+Text Label 4950 3300 0    50   ~ 0
+SATA1_CON_TX_N
+Wire Wire Line
+	5700 3400 4950 3400
+Wire Wire Line
+	5700 3500 4950 3500
+Text Label 4950 3400 0    50   ~ 0
+SATA1_CON_RX_P
+Text Label 4950 3500 0    50   ~ 0
+SATA1_CON_RX_N
+Text Label 4950 3200 0    50   ~ 0
+SATA1_CON_TX_P
+$Sheet
+S 5700 3100 750  500 
+U 5E251F70
+F0 "SATA1_CON" 50
+F1 "SATA_CON.sch" 50
+F2 "SATA_TXP" I L 5700 3200 50 
+F3 "SATA_TXN" I L 5700 3300 50 
+F4 "SATA_RXP" O L 5700 3400 50 
+F5 "SATA_RXN" O L 5700 3500 50 
+$EndSheet
+Wire Wire Line
+	5700 3950 4950 3950
+Wire Wire Line
+	5700 4050 4950 4050
+Text Label 4950 4050 0    50   ~ 0
+SATA2_CON_TX_N
+Wire Wire Line
+	5700 4150 4950 4150
+Wire Wire Line
+	5700 4250 4950 4250
+Text Label 4950 4150 0    50   ~ 0
+SATA2_CON_RX_P
+Text Label 4950 4250 0    50   ~ 0
+SATA2_CON_RX_N
+Text Label 4950 3950 0    50   ~ 0
+SATA2_CON_TX_P
+$Sheet
+S 5700 3850 750  500 
+U 5E285A10
+F0 "SATA2_CON" 50
+F1 "SATA_CON.sch" 50
+F2 "SATA_TXP" I L 5700 3950 50 
+F3 "SATA_TXN" I L 5700 4050 50 
+F4 "SATA_RXP" O L 5700 4150 50 
+F5 "SATA_RXN" O L 5700 4250 50 
+$EndSheet
+$Comp
+L Device:C C?
+U 1 1 5E2A13A5
+P 2850 6900
+F 0 "C?" V 2700 6900 50  0000 C CNN
+F 1 "0.01uF" V 3000 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2888 6750 50  0001 C CNN
+F 3 "~" H 2850 6900 50  0001 C CNN
+	1    2850 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2A644B
+P 2850 7300
+F 0 "C?" V 2700 7300 50  0000 C CNN
+F 1 "0.01uF" V 3000 7300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2888 7150 50  0001 C CNN
+F 3 "~" H 2850 7300 50  0001 C CNN
+	1    2850 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2A71E7
+P 2850 7700
+F 0 "C?" V 2700 7700 50  0000 C CNN
+F 1 "0.01uF" V 3000 7700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2888 7550 50  0001 C CNN
+F 3 "~" H 2850 7700 50  0001 C CNN
+	1    2850 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2A71ED
+P 2850 8100
+F 0 "C?" V 2700 8100 50  0000 C CNN
+F 1 "0.01uF" V 3000 8100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2888 7950 50  0001 C CNN
+F 3 "~" H 2850 8100 50  0001 C CNN
+	1    2850 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2BAD0F
+P 5350 6900
+F 0 "C?" V 5200 6900 50  0000 C CNN
+F 1 "0.01uF" V 5500 6900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 6750 50  0001 C CNN
+F 3 "~" H 5350 6900 50  0001 C CNN
+	1    5350 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2BAD15
+P 5350 7300
+F 0 "C?" V 5200 7300 50  0000 C CNN
+F 1 "0.01uF" V 5500 7300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 7150 50  0001 C CNN
+F 3 "~" H 5350 7300 50  0001 C CNN
+	1    5350 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2BAD1B
+P 5350 7700
+F 0 "C?" V 5200 7700 50  0000 C CNN
+F 1 "0.01uF" V 5500 7700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 7550 50  0001 C CNN
+F 3 "~" H 5350 7700 50  0001 C CNN
+	1    5350 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E2BAD21
+P 5350 8100
+F 0 "C?" V 5200 8100 50  0000 C CNN
+F 1 "0.01uF" V 5500 8100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5388 7950 50  0001 C CNN
+F 3 "~" H 5350 8100 50  0001 C CNN
+	1    5350 8100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 6900 3750 6900
+Wire Wire Line
+	3000 7300 3750 7300
+Text Label 3750 7300 2    50   ~ 0
+SATA1_CON_TX_N
+Wire Wire Line
+	3000 7700 3750 7700
+Wire Wire Line
+	3000 8100 3750 8100
+Text Label 3750 7700 2    50   ~ 0
+SATA1_CON_RX_P
+Text Label 3750 8100 2    50   ~ 0
+SATA1_CON_RX_N
+Text Label 3750 6900 2    50   ~ 0
+SATA1_CON_TX_P
+Wire Wire Line
+	5500 6900 6250 6900
+Wire Wire Line
+	5500 7300 6250 7300
+Text Label 6250 7300 2    50   ~ 0
+SATA2_CON_TX_N
+Wire Wire Line
+	5500 7700 6250 7700
+Wire Wire Line
+	5500 8100 6250 8100
+Text Label 6250 7700 2    50   ~ 0
+SATA2_CON_RX_P
+Text Label 6250 8100 2    50   ~ 0
+SATA2_CON_RX_N
+Text Label 6250 6900 2    50   ~ 0
+SATA2_CON_TX_P
+Wire Wire Line
+	2700 8100 2050 8100
+Wire Wire Line
+	5200 8100 4700 8100
+Wire Wire Line
+	2700 7700 2050 7700
+Wire Wire Line
+	5200 7700 4700 7700
+Wire Wire Line
+	2700 7300 2050 7300
+Wire Wire Line
+	5200 7300 4700 7300
+Wire Wire Line
+	2700 6900 2050 6900
+Wire Wire Line
+	5200 6900 4700 6900
+Text Label 2050 8100 0    50   ~ 0
+SATA_RXM0_N
+Text Label 4700 8100 0    50   ~ 0
+SATA_RXM1_N
+Text Label 2050 7700 0    50   ~ 0
+SATA_RXP0_P
+Text Label 4700 7700 0    50   ~ 0
+SATA_RXP1_P
+Text Label 2050 7300 0    50   ~ 0
+SATA_TXM0_N
+Text Label 4700 7300 0    50   ~ 0
+SATA_TXM1_N
+Text Label 2050 6900 0    50   ~ 0
+SATA_TXP0_P
+Text Label 4700 6900 0    50   ~ 0
+SATA_TXP1_P
+Text Notes 2200 8700 0    50   ~ 0
+1. MATCH TO WITHIN 2.5MILS\n2. 100-ohms DIFFERENTIAL IMPEDANCE\n3. 50-ohms SINGLE-ENDED IMPEDANCE
 $EndSCHEMATC

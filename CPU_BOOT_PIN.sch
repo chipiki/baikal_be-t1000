@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 25 40
+Sheet 27 40
 Title "Baikal BE-T1000"
 Date "2020-01-17"
 Rev "001"

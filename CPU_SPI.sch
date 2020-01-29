@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 25 40
+Sheet 25 41
 Title "Baikal BE-T1000"
-Date "2020-01-17"
+Date "2020-01-29"
 Rev "001"
 Comp "chipiki.ru"
 Comment1 "Baikal BE-T1000"
@@ -63,4 +63,10 @@ F 5 "Russian Baikal BE-T1000 MIPS Warrior P-class P5600 processor" H 4450 4350 6
 	11   4250 4600
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 3950 7550 1100 300 
+U 5E325DE0
+F0 "SPI1_BUF" 50
+F1 "SN74AVC4T774PWR.sch" 50
+$EndSheet
 $EndSCHEMATC

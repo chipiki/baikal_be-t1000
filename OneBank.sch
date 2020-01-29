@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 31 40
+Sheet 31 41
 Title "Baikal BE-T1000"
-Date "2020-01-17"
+Date "2020-01-29"
 Rev "001"
 Comp "chipiki.ru"
 Comment1 "Baikal BE-T1000"

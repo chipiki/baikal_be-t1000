@@ -4,9 +4,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 2 40
+Sheet 2 41
 Title "Baikal BE-T1000"
-Date "2020-01-17"
+Date "2020-01-29"
 Rev "001"
 Comp "chipiki.ru"
 Comment1 "Baikal BE-T1000"
@@ -61,6 +61,8 @@ S 3750 4900 800  400
 U 5DCF98FD
 F0 "CPU_SATA" 50
 F1 "CPU_SATA.sch" 50
+F2 "SATA_REF_CLKP" I L 3750 5000 50 
+F3 "SATA_REF_CLKM" I L 3750 5100 50 
 $EndSheet
 $Sheet
 S 3750 5500 800  400 

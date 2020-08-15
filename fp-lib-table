@@ -29,4 +29,7 @@
   (lib (name OLIMEX_Transistors-FP)(type KiCad)(uri ${KIPRJMOD}/Libraries/KiCAD/KiCAD_Footprints/OLIMEX_Transistors-FP.pretty)(options "")(descr ""))
   (lib (name dfn-qfn)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/dfn-qfn.pretty)(options "")(descr ""))
   (lib (name samtec)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/samtec.pretty)(options "")(descr ""))
+  (lib (name bga)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/bga.pretty)(options "")(descr ""))
+  (lib (name chip_rlc)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/chip_rlc.pretty)(options "")(descr ""))
+  (lib (name misc)(type KiCad)(uri ${KIPRJMOD}/Libraries/Footprints/misc.pretty)(options "")(descr ""))
 )

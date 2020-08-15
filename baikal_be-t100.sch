@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:baikal_be-t100-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
